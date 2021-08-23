@@ -1,0 +1,646 @@
+2021-08-21 16:25:17.595 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-21 16:25:17.601 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-21 16:25:17.602 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-21 16:25:17.602 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-21 16:25:17.602 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-21 16:25:17.602 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-21 16:25:17.603 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-21 16:25:17.698 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\chromedriver\
+2021-08-21 16:25:17.698 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-21 16:25:17.699 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-21 16:25:20.685 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-21 16:25:20.686 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.82/RetainServer
+2021-08-21 16:25:27.155 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-21 16:25:27.228 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-21 16:25:27.363 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-21 16:25:27.405 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> id: login] Title is: Micro Focus Retain
+2021-08-21 16:25:27.437 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> id: login]
+2021-08-21 16:25:27.479 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:25:27.502 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> id: login] Found.
+2021-08-21 16:25:27.503 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-21 16:25:27.503 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-21 16:25:27.504 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-21 16:25:42.774 [main] DEBUG com.retain.utility.RetainWebHelper - Click on module configuration..
+2021-08-21 16:25:42.877 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting Groupwise module
+2021-08-21 16:25:42.884 [main] DEBUG com.retain.utility.RetainWebHelper - Current title is : Retain Server 4.10.0.0 build 156
+2021-08-21 16:25:42.905 [main] DEBUG com.retain.utility.RetainWebHelper - Azeem [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> css selector: body]
+2021-08-21 16:25:47.377 [main] DEBUG com.retain.utility.RetainWebHelper - Current title is : GroupWise Module
+2021-08-21 16:26:04.771 [main] DEBUG com.retain.utility.RetainWebHelper - Test connection Passed
+2021-08-21 16:26:04.803 [main] DEBUG com.retain.utility.RetainWebHelper - Initiate Soap Connection.
+Use the following parameters:
+host:port= 10.71.98.93:7191
+trustname=Retain, trustkey=9E69....
+ssl=true
+
+SUCCESS: Connected to user 'AAD_a2de910b93f2'
+For a more stringent test, be sure to refresh the Address Book Cache and then check the logs.
+2021-08-21 16:26:04.803 [main] DEBUG com.retain.utility.RetainWebHelper - Everything is fine. Save the changes.
+2021-08-21 16:26:08.046 [main] DEBUG com.retain.utility.RetainWebHelper - Current title is : Retain Server 4.10.0.0 build 156
+2021-08-21 16:26:08.145 [main] DEBUG com.retain.utility.RetainWebHelper - Click on module configuration..
+2021-08-21 16:26:08.238 [main] DEBUG com.retain.utility.RetainWebHelper - Exchange module configuration...
+2021-08-21 16:26:08.245 [main] DEBUG com.retain.utility.RetainWebHelper - Current title is : Retain Server 4.10.0.0 build 156
+2021-08-21 16:26:08.268 [main] DEBUG com.retain.utility.RetainWebHelper - Azeem [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> css selector: body]
+2021-08-21 16:26:08.365 [main] DEBUG com.retain.utility.RetainWebHelper - Opening Exchange module configuration page
+2021-08-21 16:26:12.612 [main] DEBUG com.retain.utility.RetainWebHelper - Current title is : Exchange Module
+2021-08-21 16:26:12.613 [main] DEBUG com.retain.utility.RetainWebHelper -  Exchange module core setting
+2021-08-21 16:26:12.716 [main] DEBUG com.retain.utility.RetainWebHelper -  Exchange module module name: exchangeAuto
+2021-08-21 16:26:29.829 [main] DEBUG com.retain.utility.RetainWebHelper - Testing...
+LDAPServer connection parameters:
+host=151.155.70.20,port=3268,security=none,user=retain@exchange2013.qa.gwava.com;pageSize=900;environment=key=java.naming.factory.initial;value=com.sun.jndi.ldap.LdapCtxFactory
+key=java.naming.referral;value=follow
+key=java.naming.security.principal;value=retain@exchange2013.qa.gwava.com
+key=com.sun.jndi.ldap.connect.timeout;value=10000
+key=java.naming.ldap.attributes.binary;value=msExchMailboxGuid objectguid objectsid msExchMasterAccountSID
+key=com.sun.jndi.ldap.read.timeout;value=60000
+key=java.naming.provider.url;value=ldap://151.155.70.20:3268
+key=java.naming.security.authentication;value=simple
+key=java.naming.security.credentials;value=****
+
+
+Connect to and search for user:
+For a more stringent test, be sure to refresh the Address Book Cache and then check the logs.
+FAILURE: Exception occurred:
+javax.naming.CommunicationException: 151.155.70.20:3268 [Root exception is java.net.SocketTimeoutException: connect timed out]
+ at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:237)
+ at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+ at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1610)
+ at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2751)
+ at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:319)
+ at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:192)
+ at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:210)
+ at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:153)
+ at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:83)
+ at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:719)
+ at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+ at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+ at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+ at com.gwava.address.exchange.impl.AbstractLDAPOperation.connect(AbstractLDAPOperation.java:41)
+ at com.gwava.address.exchange.impl.ExchangeUserLDAP.getUsers(ExchangeUserLDAP.java:53)
+ at com.gwava.address.exchange.impl.ExchangeUserLDAP.performOperation(ExchangeUserLDAP.java:192)
+ at com.gwava.address.exchange.impl.ExchangeUserLDAP.performOperation(ExchangeUserLDAP.java:36)
+ at com.gwava.management.module.ExchangeManagement.testAuto(ExchangeManagement.java:527)
+ at com.gwava.management.module.ExchangeManagement.testAuto(ExchangeManagement.java:481)
+ at com.gwava.management.module.ExchangeManagement.test(ExchangeManagement.java:468)
+ at org.apache.jsp.Manager.exchangesummary_jsp._jspService(exchangesummary_jsp.java:244)
+ at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+ at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+ at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+ at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+ at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+ at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ at com.gwava.Filters.ResponseFilter.doFilter(ResponseFilter.java:51)
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ at com.gwava.Filters.MainFilter.doFilter(MainFilter.java:394)
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+ at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+ at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+ at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+ at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+ at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+ at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+ at org.apache.coyote.ajp.AjpProcessor.service(AjpProcessor.java:433)
+ at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+ at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2054)
+ at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+ at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+ at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+ at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+ at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+ at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+ at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+ at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+ at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+ at java.base/java.net.Socket.connect(Socket.java:609)
+ at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:320)
+ at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:216)
+ ... 54 more
+
+FAILURE: User doesn't exist or is not mail enabled.
+2021-08-21 16:26:29.895 [main] ERROR com.retain.utility.RetainWebHelper - Test Connection failed for Exchange and result is: Testing...
+LDAPServer connection parameters:
+host=151.155.70.20,port=3268,security=none,user=retain@exchange2013.qa.gwava.com;pageSize=900;environment=key=java.naming.factory.initial;value=com.sun.jndi.ldap.LdapCtxFactory
+key=java.naming.referral;value=follow
+key=java.naming.security.principal;value=retain@exchange2013.qa.gwava.com
+key=com.sun.jndi.ldap.connect.timeout;value=10000
+key=java.naming.ldap.attributes.binary;value=msExchMailboxGuid objectguid objectsid msExchMasterAccountSID
+key=com.sun.jndi.ldap.read.timeout;value=60000
+key=java.naming.provider.url;value=ldap://151.155.70.20:3268
+key=java.naming.security.authentication;value=simple
+key=java.naming.security.credentials;value=****
+
+
+Connect to and search for user:
+For a more stringent test, be sure to refresh the Address Book Cache and then check the logs.
+FAILURE: Exception occurred:
+javax.naming.CommunicationException: 151.155.70.20:3268 [Root exception is java.net.SocketTimeoutException: connect timed out]
+ at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:237)
+ at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+ at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1610)
+ at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2751)
+ at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:319)
+ at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:192)
+ at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:210)
+ at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:153)
+ at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:83)
+ at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:719)
+ at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+ at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+ at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+ at com.gwava.address.exchange.impl.AbstractLDAPOperation.connect(AbstractLDAPOperation.java:41)
+ at com.gwava.address.exchange.impl.ExchangeUserLDAP.getUsers(ExchangeUserLDAP.java:53)
+ at com.gwava.address.exchange.impl.ExchangeUserLDAP.performOperation(ExchangeUserLDAP.java:192)
+ at com.gwava.address.exchange.impl.ExchangeUserLDAP.performOperation(ExchangeUserLDAP.java:36)
+ at com.gwava.management.module.ExchangeManagement.testAuto(ExchangeManagement.java:527)
+ at com.gwava.management.module.ExchangeManagement.testAuto(ExchangeManagement.java:481)
+ at com.gwava.management.module.ExchangeManagement.test(ExchangeManagement.java:468)
+ at org.apache.jsp.Manager.exchangesummary_jsp._jspService(exchangesummary_jsp.java:244)
+ at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+ at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+ at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+ at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+ at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+ at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ at com.gwava.Filters.ResponseFilter.doFilter(ResponseFilter.java:51)
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ at com.gwava.Filters.MainFilter.doFilter(MainFilter.java:394)
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+ at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+ at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+ at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+ at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+ at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+ at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+ at org.apache.coyote.ajp.AjpProcessor.service(AjpProcessor.java:433)
+ at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+ at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2054)
+ at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+ at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+ at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+ at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+ at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+ at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+ at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+ at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+ at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+ at java.base/java.net.Socket.connect(Socket.java:609)
+ at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:320)
+ at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:216)
+ ... 54 more
+
+FAILURE: User doesn't exist or is not mail enabled.
+2021-08-21 16:26:34.103 [main] DEBUG com.retain.utility.RetainWebHelper - Current title is : Retain Server 4.10.0.0 build 156
+2021-08-21 16:26:34.133 [main] DEBUG com.retain.utility.RetainWebHelper - Refreshing address book after module configuration...
+2021-08-21 16:26:35.592 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //button[text()='No']]
+2021-08-21 16:26:35.609 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:26:35.730 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Schedule under Data Collection..
+2021-08-21 16:26:35.821 [main] DEBUG com.retain.utility.RetainWebHelper - 55
+2021-08-21 16:26:39.934 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add schedule
+2021-08-21 16:26:41.311 [main] DEBUG com.retain.utility.RetainWebHelper - creating a schdule with the name: groupwiseSchedule
+2021-08-21 16:26:41.503 [main] DEBUG com.retain.utility.RetainWebHelper - Select month: 04
+2021-08-21 16:26:41.683 [main] DEBUG com.retain.utility.RetainWebHelper - Select year: 2021
+2021-08-21 16:26:41.780 [main] DEBUG com.retain.utility.RetainWebHelper - Select day: 15
+2021-08-21 16:26:41.937 [main] DEBUG com.retain.utility.RetainWebHelper - Select hours: 2021
+2021-08-21 16:26:42.107 [main] DEBUG com.retain.utility.RetainWebHelper - Select minutes: 2021
+2021-08-21 16:26:42.321 [main] DEBUG com.retain.utility.RetainWebHelper - Saving the changes
+2021-08-21 16:26:43.889 [main] DEBUG com.retain.utility.RetainWebHelper - Groupwise schedule created successfully!!
+2021-08-21 16:26:43.918 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Schedule under Data Collection..
+2021-08-21 16:26:44.010 [main] DEBUG com.retain.utility.RetainWebHelper - 55
+2021-08-21 16:26:45.227 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add schedule
+2021-08-21 16:26:46.578 [main] DEBUG com.retain.utility.RetainWebHelper - creating a schdule with the name: exchangeSchedule
+2021-08-21 16:26:46.822 [main] DEBUG com.retain.utility.RetainWebHelper - Select month: 04
+2021-08-21 16:26:46.982 [main] DEBUG com.retain.utility.RetainWebHelper - Select year: 2021
+2021-08-21 16:26:47.088 [main] DEBUG com.retain.utility.RetainWebHelper - Select day: 15
+2021-08-21 16:26:47.222 [main] DEBUG com.retain.utility.RetainWebHelper - Select hours: 2021
+2021-08-21 16:26:47.386 [main] DEBUG com.retain.utility.RetainWebHelper - Select minutes: 2021
+2021-08-21 16:26:47.559 [main] DEBUG com.retain.utility.RetainWebHelper - Saving the changes
+2021-08-21 16:26:49.099 [main] DEBUG com.retain.utility.RetainWebHelper - Schedule created successfully!!!
+2021-08-21 16:26:49.115 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Profile under Data Collection..
+2021-08-21 16:26:49.144 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]]
+2021-08-21 16:26:49.168 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:26:49.336 [main] DEBUG com.retain.utility.RetainWebHelper - Clicked on profile. 
+2021-08-21 16:26:49.350 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //a[text()='GroupWise']]
+2021-08-21 16:26:49.367 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:26:49.440 [main] DEBUG com.retain.utility.RetainWebHelper - Selected groupwise profile.
+2021-08-21 16:27:00.587 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Profile under Data Collection..
+2021-08-21 16:27:00.631 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]]
+2021-08-21 16:27:00.658 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:27:00.764 [main] DEBUG com.retain.utility.RetainWebHelper - Already profile expand.
+2021-08-21 16:27:00.777 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //a[text()='Exchange']]
+2021-08-21 16:27:00.794 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:27:00.852 [main] DEBUG com.retain.utility.RetainWebHelper - Selected groupwise profile.
+2021-08-21 16:27:10.581 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Worker under Data Collection..
+2021-08-21 16:27:10.650 [main] DEBUG com.retain.utility.RetainWebHelper - Clicked on Workers. 
+2021-08-21 16:27:13.121 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add worker
+2021-08-21 16:27:14.815 [main] DEBUG com.retain.utility.RetainWebHelper - Creating worker with name exchangeWorker
+2021-08-21 16:27:14.928 [main] DEBUG com.retain.utility.RetainWebHelper - Adding module specific details for groupwise and exchange
+2021-08-21 16:27:15.132 [main] DEBUG com.retain.utility.RetainWebHelper - POA Host Name: 10.71.98.93
+2021-08-21 16:27:15.341 [main] DEBUG com.retain.utility.RetainWebHelper - POA SOAP Port: 7191
+2021-08-21 16:27:15.416 [main] DEBUG com.retain.utility.RetainWebHelper - SSL certificate is enabled.
+2021-08-21 16:27:15.524 [main] DEBUG com.retain.utility.RetainWebHelper - Saving the changes...
+2021-08-21 16:27:17.529 [main] DEBUG com.retain.utility.RetainWebHelper - Click on bootstrap tab.
+2021-08-21 16:27:17.623 [main] DEBUG com.retain.utility.RetainWebHelper - Going to download bootstrap file.
+2021-08-21 16:27:31.729 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //input[@name='file1']]
+2021-08-21 16:27:31.773 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:27:37.782 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-21 16:27:37.817 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //img[@onclick="MenuToggleExpand(this,'job');return false"]]
+2021-08-21 16:27:37.840 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:27:47.963 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-21 16:27:47.989 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:27:47.989 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-21 16:27:53.646 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-21 16:27:53.727 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-21 16:27:57.287 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: groupwiseJob
+2021-08-21 16:27:57.526 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: groupwiseSchedule
+2021-08-21 16:27:57.699 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-21 16:27:57.821 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-21 16:27:57.970 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-21 16:28:03.098 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mail Servers
+2021-08-21 16:28:03.239 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mailserver based retain properties file.
+2021-08-21 16:28:03.240 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: ExternalPO
+2021-08-21 16:28:08.516 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-21 16:28:08.536 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:28:08.537 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : ExternalPO
+2021-08-21 16:28:08.682 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: office365
+2021-08-21 16:28:13.919 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-21 16:28:13.943 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:28:13.943 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : office365
+2021-08-21 16:28:14.138 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: RetainPO
+2021-08-21 16:28:19.321 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-21 16:28:19.341 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:28:19.341 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : RetainPO
+2021-08-21 16:28:19.525 [main] DEBUG com.retain.utility.RetainWebHelper - Mail Servers added successfully !!!!
+2021-08-21 16:28:19.526 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-21 16:28:23.972 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-21 16:28:24.128 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-21 16:28:24.283 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: 0 :  edir1@blr.novell.com
+2021-08-21 16:28:29.740 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4957b02b4578b7584e72126c286816d8)] -> xpath: //input[@onclick='CheckMe(this)']]
+2021-08-21 16:28:29.755 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 16:28:29.755 [main] WARN  com.retain.utility.RetainWebHelper - Email Address is available in the list: edir1@blr.novell.com
+2021-08-21 16:28:29.756 [main] DEBUG com.retain.utility.RetainWebHelper - Selected check box for Email Address: edir1@blr.novell.com
+2021-08-21 16:28:29.926 [main] DEBUG com.retain.utility.RetainWebHelper - Add Selected for the email: edir1@blr.novell.com
+2021-08-21 16:28:30.120 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-21 16:28:31.003 [main] DEBUG com.retain.utility.RetainWebHelper - Include users added successfully !!!!
+2021-08-21 19:48:00.217 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-21 19:48:00.222 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-21 19:48:00.222 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-21 19:48:00.222 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-21 19:48:00.223 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-21 19:48:00.223 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-21 19:48:00.223 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-21 19:48:00.336 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\chromedriver\
+2021-08-21 19:48:00.337 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-21 19:48:00.337 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-21 19:48:03.288 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-21 19:48:03.289 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-21 19:48:08.340 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-21 19:48:08.421 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-21 19:48:08.566 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-21 19:48:08.619 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-21 19:48:08.638 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-21 19:48:08.639 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-21 19:48:08.640 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-21 19:48:08.641 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-21 19:48:08.710 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-21 19:48:08.750 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-21 19:48:08.774 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d5eec7d58d7de6368ff725b92adee7ba)] -> xpath: //h1[text()='Welcome to Micro Focus Retain']]
+2021-08-21 19:48:08.804 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 19:48:08.805 [main] DEBUG com.retain.utility.RetainWebHelper - We are on configuration Page. Let's start configuration
+2021-08-21 19:48:08.832 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d5eec7d58d7de6368ff725b92adee7ba)] -> xpath: //td[text()='Storage Path']]
+2021-08-21 19:48:08.862 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 19:48:09.101 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d5eec7d58d7de6368ff725b92adee7ba)] -> xpath: //input[@value='Continue']]
+2021-08-21 19:48:09.125 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 19:48:11.731 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Message store database page..
+2021-08-21 19:48:11.774 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-21 19:48:11.855 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-21 19:48:11.912 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d5eec7d58d7de6368ff725b92adee7ba)] -> xpath: //legend[text()='Message Store Database Connection Parameters']]
+2021-08-21 19:48:11.950 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 19:48:11.950 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with Message store database..
+2021-08-21 19:48:12.153 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-21 19:48:12.153 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-21 19:48:12.154 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-21 19:48:12.154 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-21 19:48:12.155 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-21 19:48:12.155 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-21 19:48:12.156 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-21 19:48:12.158 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\chromedriver\
+2021-08-21 19:48:12.159 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-21 19:48:12.160 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-21 19:48:14.426 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-21 19:48:14.426 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-21 19:48:19.799 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-21 19:48:19.810 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-21 19:48:19.944 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-21 19:48:19.979 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-21 19:48:19.993 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-21 19:48:19.993 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-21 19:48:19.993 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-21 19:48:19.994 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-21 19:48:20.016 [main] DEBUG com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"css selector","selector":"#login"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3156288042c9b5367939314094950c8
+*** Element info: {Using=id, value=login}
+2021-08-21 19:48:20.059 [main] DEBUG com.retain.utility.RetainWebHelper - Click on module configuration..
+2021-08-21 19:48:20.107 [main] ERROR com.retain.utility.RetainWebHelper - Module configuration option not found.
+2021-08-21 19:48:20.136 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Schedule under Data Collection..
+2021-08-21 19:48:20.170 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Schedules']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3156288042c9b5367939314094950c8
+*** Element info: {Using=xpath, value=//a[text()='Schedules']}
+2021-08-21 19:48:20.171 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 19:48:20.203 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Schedule under Data Collection..
+2021-08-21 19:48:20.231 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Schedules']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3156288042c9b5367939314094950c8
+*** Element info: {Using=xpath, value=//a[text()='Schedules']}
+2021-08-21 19:48:20.231 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 19:48:20.253 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Profile under Data Collection..
+2021-08-21 19:48:20.284 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 19:48:20.325 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 19:48:20.373 [main] ERROR com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 19:48:20.389 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Profile under Data Collection..
+2021-08-21 19:48:20.445 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 19:48:20.489 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 19:48:20.536 [main] ERROR com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 19:48:20.557 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Worker under Data Collection..
+2021-08-21 19:48:20.670 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Workers']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3156288042c9b5367939314094950c8
+*** Element info: {Using=xpath, value=//a[text()='Workers']}
+2021-08-21 19:48:20.670 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 19:48:20.689 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-21 19:48:20.748 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'job');return false"]'
+2021-08-21 19:48:20.796 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'job');return false"]'
+2021-08-21 19:48:20.796 [main] DEBUG com.retain.utility.RetainWebHelper - Job expand button not available. So click on job button
+2021-08-21 19:48:20.850 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Jobs']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3156288042c9b5367939314094950c8
+*** Element info: {Using=xpath, value=//a[text()='Jobs']}
+2021-08-21 19:48:20.851 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 19:48:20.866 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Exchange Job under Data Collection..
+2021-08-21 19:48:21.034 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/RetainServer/Manager/ex_jobmanagement.jsp']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3156288042c9b5367939314094950c8
+*** Element info: {Using=xpath, value=//a[@href='/RetainServer/Manager/ex_jobmanagement.jsp']}
+2021-08-21 19:48:21.035 [main] INFO  com.retain.utility.RetainWebHelper - Please check exchange module is configured or not.
+2021-08-21 19:50:08.460 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-21 19:50:08.466 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-21 19:50:08.467 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-21 19:50:08.467 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-21 19:50:08.468 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-21 19:50:08.468 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-21 19:50:08.469 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-21 19:50:08.536 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\chromedriver\
+2021-08-21 19:50:08.536 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-21 19:50:08.537 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-21 19:50:11.423 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-21 19:50:11.424 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-21 19:50:17.524 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-21 19:50:17.635 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-21 19:50:17.813 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-21 19:50:17.893 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-21 19:50:17.928 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-21 19:50:17.928 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-21 19:50:17.929 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-21 19:50:17.930 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-21 19:50:18.033 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (eb31a3611eb72a22372e15a25153c9af)] -> xpath: //div[@class='config-done']]
+2021-08-21 19:50:18.068 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 19:50:18.091 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (eb31a3611eb72a22372e15a25153c9af)] -> xpath: //input[@value='Next']]
+2021-08-21 19:50:18.116 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 19:50:18.116 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Path. Hence moving to next page and Message as:
+2021-08-21 19:50:18.159 [main] DEBUG com.retain.utility.RetainWebHelper - Path Configuration already completed.
+2021-08-21 19:50:19.274 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Message store database page..
+2021-08-21 19:50:19.320 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-21 19:50:19.400 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-21 19:50:19.456 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (eb31a3611eb72a22372e15a25153c9af)] -> xpath: //legend[text()='Message Store Database Connection Parameters']]
+2021-08-21 19:50:19.513 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 19:50:19.514 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with Message store database..
+2021-08-21 19:50:19.968 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-21 19:50:19.969 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-21 19:50:19.970 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-21 19:50:19.970 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-21 19:50:19.971 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-21 19:50:19.971 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-21 19:50:19.971 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-21 19:50:19.973 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\chromedriver\
+2021-08-21 19:50:19.973 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-21 19:50:19.974 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-21 19:50:22.335 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-21 19:50:22.335 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-21 19:50:27.553 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-21 19:50:27.558 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-21 19:50:27.701 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-21 19:50:27.736 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-21 19:50:27.754 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-21 19:50:27.754 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-21 19:50:27.754 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-21 19:50:27.755 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-21 19:50:27.776 [main] DEBUG com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"css selector","selector":"#login"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b6f322f02b192c7989b80ce6bbc384e
+*** Element info: {Using=id, value=login}
+2021-08-21 19:50:27.815 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Schedule under Data Collection..
+2021-08-21 19:50:27.865 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Schedules']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b6f322f02b192c7989b80ce6bbc384e
+*** Element info: {Using=xpath, value=//a[text()='Schedules']}
+2021-08-21 19:50:27.867 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 19:50:27.898 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Schedule under Data Collection..
+2021-08-21 19:50:27.920 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Schedules']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b6f322f02b192c7989b80ce6bbc384e
+*** Element info: {Using=xpath, value=//a[text()='Schedules']}
+2021-08-21 19:50:27.920 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 19:50:27.944 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Profile under Data Collection..
+2021-08-21 19:50:27.971 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 19:50:28.005 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 19:50:28.045 [main] ERROR com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 19:50:28.070 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Profile under Data Collection..
+2021-08-21 19:50:28.097 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 19:50:28.127 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 19:50:28.145 [main] ERROR com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 19:50:28.166 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Worker under Data Collection..
+2021-08-21 19:50:28.207 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Workers']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b6f322f02b192c7989b80ce6bbc384e
+*** Element info: {Using=xpath, value=//a[text()='Workers']}
+2021-08-21 19:50:28.208 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 19:50:28.234 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-21 19:50:28.265 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'job');return false"]'
+2021-08-21 19:50:28.296 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'job');return false"]'
+2021-08-21 19:50:28.296 [main] DEBUG com.retain.utility.RetainWebHelper - Job expand button not available. So click on job button
+2021-08-21 19:50:28.324 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Jobs']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b6f322f02b192c7989b80ce6bbc384e
+*** Element info: {Using=xpath, value=//a[text()='Jobs']}
+2021-08-21 19:50:28.324 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 20:00:32.930 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-21 20:00:32.935 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-21 20:00:32.935 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-21 20:00:32.935 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-21 20:00:32.936 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-21 20:00:32.936 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-21 20:00:32.936 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-21 20:00:33.014 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\chromedriver\
+2021-08-21 20:00:33.015 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-21 20:00:33.016 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-21 20:00:36.044 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-21 20:00:36.045 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-21 20:00:42.180 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-21 20:00:42.254 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-21 20:00:42.408 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-21 20:00:42.459 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (cee5d09f4de8cd1a5d7c5c5f2e244b3b)] -> id: login] Title is: Micro Focus Retain
+2021-08-21 20:00:42.496 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (cee5d09f4de8cd1a5d7c5c5f2e244b3b)] -> id: login]
+2021-08-21 20:00:42.524 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-21 20:00:42.542 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (cee5d09f4de8cd1a5d7c5c5f2e244b3b)] -> id: login] Found.
+2021-08-21 20:00:42.543 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-21 20:00:42.544 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-21 20:00:42.544 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-21 20:00:51.747 [main] DEBUG com.retain.utility.RetainWebHelper - Click on module configuration..
+2021-08-21 20:00:51.832 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting Groupwise module
+2021-08-21 20:00:51.840 [main] DEBUG com.retain.utility.RetainWebHelper - Current title is : Retain Server 4.9.0.1 build 380
+2021-08-21 20:00:51.858 [main] DEBUG com.retain.utility.RetainWebHelper - Azeem [[ChromeDriver: chrome on WINDOWS (cee5d09f4de8cd1a5d7c5c5f2e244b3b)] -> css selector: body]
+2021-08-21 20:00:58.046 [main] DEBUG com.retain.utility.RetainWebHelper - Current title is : GroupWise Module
+2021-08-21 20:01:15.786 [main] DEBUG com.retain.utility.RetainWebHelper - Test connection Passed
+2021-08-21 20:01:15.811 [main] DEBUG com.retain.utility.RetainWebHelper - Initiate Soap Connection.
+Use the following parameters:
+host:port= 10.71.98.93:7191
+trustname=Retain, trustkey=9E69....
+ssl=true
+
+SUCCESS: Connected to user 'AAD_a2de910b93f2'
+For a more stringent test, be sure to refresh the Address Book Cache and then check the logs.
+2021-08-21 20:01:15.812 [main] DEBUG com.retain.utility.RetainWebHelper - Everything is fine. Save the changes.
+2021-08-21 20:01:18.746 [main] DEBUG com.retain.utility.RetainWebHelper - Current title is : Retain Server 4.9.0.1 build 380
+2021-08-21 20:01:18.783 [main] DEBUG com.retain.utility.RetainWebHelper - Refreshing address book after module configuration...
+2021-08-21 20:01:19.896 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='No']'
+2021-08-21 20:01:19.922 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='No']'
+2021-08-21 20:01:19.956 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Schedule under Data Collection..
+2021-08-21 20:01:20.017 [main] ERROR com.retain.utility.RetainWebHelper - element not interactable
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee5d09f4de8cd1a5d7c5c5f2e244b3b
+2021-08-21 20:01:20.018 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 20:01:20.073 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Schedule under Data Collection..
+2021-08-21 20:01:20.108 [main] ERROR com.retain.utility.RetainWebHelper - element not interactable
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee5d09f4de8cd1a5d7c5c5f2e244b3b
+2021-08-21 20:01:20.109 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 20:01:20.137 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Profile under Data Collection..
+2021-08-21 20:01:20.186 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 20:01:20.219 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 20:01:20.275 [main] ERROR com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 20:01:20.296 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Profile under Data Collection..
+2021-08-21 20:01:20.323 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 20:01:20.363 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'profile');return false"]'
+2021-08-21 20:01:20.412 [main] ERROR com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 20:01:20.443 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Worker under Data Collection..
+2021-08-21 20:01:20.479 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Workers']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee5d09f4de8cd1a5d7c5c5f2e244b3b
+*** Element info: {Using=xpath, value=//a[text()='Workers']}
+2021-08-21 20:01:20.480 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.
+2021-08-21 20:01:20.500 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-21 20:01:20.535 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'job');return false"]'
+2021-08-21 20:01:20.572 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //img[@onclick="MenuToggleExpand(this,'job');return false"]'
+2021-08-21 20:01:20.573 [main] DEBUG com.retain.utility.RetainWebHelper - Job expand button not available. So click on job button
+2021-08-21 20:01:20.627 [main] ERROR com.retain.utility.RetainWebHelper - element not interactable
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee5d09f4de8cd1a5d7c5c5f2e244b3b
+2021-08-21 20:01:20.628 [main] INFO  com.retain.utility.RetainWebHelper - Please check module is configured or not.

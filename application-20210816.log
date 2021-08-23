@@ -1,0 +1,456 @@
+2021-08-16 16:44:56.444 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-16 16:44:56.449 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-16 16:44:56.449 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-16 16:44:56.450 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-16 16:44:56.450 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-16 16:44:56.450 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-16 16:44:56.451 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-16 16:44:56.545 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-16 16:44:56.546 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-16 16:44:56.546 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-16 16:44:58.799 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-16 16:44:58.800 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.82/RetainServer
+2021-08-16 16:45:06.224 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-16 16:45:06.291 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-16 16:45:06.440 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-16 16:45:06.491 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-16 16:45:06.507 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-16 16:45:06.507 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-16 16:45:06.507 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-16 16:45:06.508 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-16 16:45:06.558 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e319c218e5740b6155e56a67e7e8a1a1)] -> xpath: //div[@class='config-done']]
+2021-08-16 16:45:06.582 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:45:06.606 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e319c218e5740b6155e56a67e7e8a1a1)] -> xpath: //input[@value='Next']]
+2021-08-16 16:45:06.627 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:45:06.627 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Path. Hence moving to next page and Message as:
+2021-08-16 16:45:06.672 [main] DEBUG com.retain.utility.RetainWebHelper - Path Configuration already completed.
+2021-08-16 16:45:19.151 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Message store database page..
+2021-08-16 16:45:19.175 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 16:45:19.223 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 16:45:19.247 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e319c218e5740b6155e56a67e7e8a1a1)] -> xpath: //legend[text()='Message Store Database Connection Parameters']]
+2021-08-16 16:45:19.272 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:45:19.273 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with Message store database..
+2021-08-16 16:49:10.542 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-16 16:49:10.547 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-16 16:49:10.547 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-16 16:49:10.548 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-16 16:49:10.548 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-16 16:49:10.548 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-16 16:49:10.549 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-16 16:49:10.662 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-16 16:49:10.663 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-16 16:49:10.663 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-16 16:49:13.164 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-16 16:49:13.165 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.82/RetainServer
+2021-08-16 16:49:19.536 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-16 16:49:19.584 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-16 16:49:19.713 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-16 16:49:19.772 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-16 16:49:19.788 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-16 16:49:19.789 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-16 16:49:19.789 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-16 16:49:19.790 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-16 16:49:19.844 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (113548f0525b85d2e94c21db9183ac28)] -> xpath: //div[@class='config-done']]
+2021-08-16 16:49:19.874 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:49:19.899 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (113548f0525b85d2e94c21db9183ac28)] -> xpath: //input[@value='Next']]
+2021-08-16 16:49:19.927 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:49:19.927 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Path. Hence moving to next page and Message as:
+2021-08-16 16:49:19.981 [main] DEBUG com.retain.utility.RetainWebHelper - Path Configuration already completed.
+2021-08-16 16:49:25.541 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Message store database page..
+2021-08-16 16:49:25.565 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 16:49:25.601 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 16:49:25.624 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (113548f0525b85d2e94c21db9183ac28)] -> xpath: //legend[text()='Message Store Database Connection Parameters']]
+2021-08-16 16:49:25.648 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:49:25.648 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with Message store database..
+2021-08-16 16:49:44.832 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (113548f0525b85d2e94c21db9183ac28)] -> xpath: //div[@class='error']]
+2021-08-16 16:49:44.876 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:49:44.877 [main] DEBUG com.retain.utility.RetainWebHelper - Please check the Error Message and DB details and Error is :
+2021-08-16 16:49:44.978 [main] DEBUG com.retain.utility.RetainWebHelper - The following errors occurred during database configuration: Cannot create DB connection. Check dbURL/dbUser/dbPassword fields
+2021-08-16 16:55:07.754 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-16 16:55:07.763 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-16 16:55:07.763 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-16 16:55:07.764 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-16 16:55:07.764 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-16 16:55:07.765 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-16 16:55:07.765 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-16 16:55:07.872 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-16 16:55:07.873 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-16 16:55:07.873 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-16 16:55:10.422 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-16 16:55:10.423 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.82/RetainServer
+2021-08-16 16:55:16.305 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-16 16:55:16.353 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-16 16:55:16.501 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-16 16:55:16.565 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-16 16:55:16.582 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-16 16:55:16.583 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-16 16:55:16.584 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-16 16:55:16.584 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-16 16:55:16.642 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (a916263bdbc3013e343381a0cab1ac18)] -> xpath: //div[@class='config-done']]
+2021-08-16 16:55:16.675 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:55:16.704 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (a916263bdbc3013e343381a0cab1ac18)] -> xpath: //input[@value='Next']]
+2021-08-16 16:55:16.729 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:55:16.730 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Path. Hence moving to next page and Message as:
+2021-08-16 16:55:16.775 [main] DEBUG com.retain.utility.RetainWebHelper - Path Configuration already completed.
+2021-08-16 16:55:20.465 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Message store database page..
+2021-08-16 16:55:20.506 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 16:55:20.581 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 16:55:20.635 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (a916263bdbc3013e343381a0cab1ac18)] -> xpath: //legend[text()='Message Store Database Connection Parameters']]
+2021-08-16 16:55:20.683 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:55:20.684 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with Message store database..
+2021-08-16 16:55:38.571 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (a916263bdbc3013e343381a0cab1ac18)] -> xpath: //div[@class='error']]
+2021-08-16 16:55:38.616 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:55:38.617 [main] DEBUG com.retain.utility.RetainWebHelper - Please check the Error Message and DB details and Error is :
+2021-08-16 16:55:38.705 [main] DEBUG com.retain.utility.RetainWebHelper - The following errors occurred during database configuration: Cannot create DB connection. Check dbURL/dbUser/dbPassword fields
+2021-08-16 16:58:58.645 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-16 16:58:58.653 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-16 16:58:58.654 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-16 16:58:58.654 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-16 16:58:58.655 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-16 16:58:58.656 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-16 16:58:58.657 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-16 16:58:58.757 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-16 16:58:58.758 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-16 16:58:58.759 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-16 16:59:01.176 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-16 16:59:01.177 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.82/RetainServer
+2021-08-16 16:59:07.451 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-16 16:59:07.587 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-16 16:59:07.733 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-16 16:59:07.787 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-16 16:59:07.806 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-16 16:59:07.807 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-16 16:59:07.808 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-16 16:59:07.808 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-16 16:59:07.880 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (0703bc6a7caa99e96e55eeeffec25382)] -> xpath: //div[@class='config-done']]
+2021-08-16 16:59:07.918 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:59:07.946 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (0703bc6a7caa99e96e55eeeffec25382)] -> xpath: //input[@value='Next']]
+2021-08-16 16:59:07.972 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:59:07.973 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Path. Hence moving to next page and Message as:
+2021-08-16 16:59:08.025 [main] DEBUG com.retain.utility.RetainWebHelper - Path Configuration already completed.
+2021-08-16 16:59:11.698 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Message store database page..
+2021-08-16 16:59:11.741 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 16:59:11.816 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 16:59:11.882 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (0703bc6a7caa99e96e55eeeffec25382)] -> xpath: //legend[text()='Message Store Database Connection Parameters']]
+2021-08-16 16:59:11.925 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 16:59:11.925 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with Message store database..
+2021-08-16 16:59:27.510 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='error']'
+2021-08-16 16:59:27.561 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='error']'
+2021-08-16 16:59:27.564 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Database configuration page..
+2021-08-16 16:59:27.591 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 16:59:27.620 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 16:59:27.620 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with DataBase configuration..
+2021-08-16 17:03:37.107 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-16 17:03:37.112 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-16 17:03:37.112 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-16 17:03:37.113 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-16 17:03:37.113 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-16 17:03:37.113 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-16 17:03:37.113 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-16 17:03:37.208 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-16 17:03:37.208 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-16 17:03:37.209 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-16 17:03:39.467 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-16 17:03:39.468 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.82/RetainServer
+2021-08-16 17:03:44.946 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-16 17:03:45.054 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-16 17:03:45.248 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-16 17:03:45.316 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-16 17:03:45.339 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-16 17:03:45.339 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-16 17:03:45.340 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-16 17:03:45.340 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-16 17:03:45.422 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (125da6009b316a6855350f83f0d5ceaa)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:03:45.451 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:03:45.474 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (125da6009b316a6855350f83f0d5ceaa)] -> xpath: //input[@value='Next']]
+2021-08-16 17:03:45.504 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:03:45.505 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Path. Hence moving to next page and Message as:
+2021-08-16 17:03:45.556 [main] DEBUG com.retain.utility.RetainWebHelper - Path Configuration already completed.
+2021-08-16 17:03:46.413 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Message store database page..
+2021-08-16 17:03:46.441 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (125da6009b316a6855350f83f0d5ceaa)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:03:46.464 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:03:46.480 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (125da6009b316a6855350f83f0d5ceaa)] -> xpath: //input[@value='Next']]
+2021-08-16 17:03:46.499 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:03:46.499 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Message Store Database. Hence moving to next page
+2021-08-16 17:03:47.317 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Database configuration page..
+2021-08-16 17:03:47.358 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (125da6009b316a6855350f83f0d5ceaa)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:03:47.403 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:03:47.438 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (125da6009b316a6855350f83f0d5ceaa)] -> xpath: //input[@value='Next']]
+2021-08-16 17:03:47.484 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:03:47.485 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Database. Hence moving to next page
+2021-08-16 17:03:49.650 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Administrator configuration page..
+2021-08-16 17:03:49.695 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:03:49.790 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:03:49.791 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with administrator configuration..
+2021-08-16 17:03:52.718 [main] DEBUG com.retain.utility.RetainWebHelper - We are on SMTP configuration Page
+2021-08-16 17:03:52.761 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:03:52.831 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:03:52.833 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with SMTP Details configuration..
+2021-08-16 17:03:57.418 [main] DEBUG com.retain.utility.RetainWebHelper - We are on SMTP configuration Page
+2021-08-16 17:03:57.440 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:03:57.470 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:03:57.471 [main] DEBUG com.retain.utility.RetainWebHelper.
+2021-08-16 17:03:57.487 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='server']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60167}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 125da6009b316a6855350f83f0d5ceaa
+*** Element info: {Using=xpath, value=//input[@name='server']}
+2021-08-16 17:09:16.111 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-16 17:09:16.118 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-16 17:09:16.118 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-16 17:09:16.118 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-16 17:09:16.119 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-16 17:09:16.119 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-16 17:09:16.119 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-16 17:09:16.249 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-16 17:09:16.250 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-16 17:09:16.251 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-16 17:09:19.478 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-16 17:09:19.478 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.82/RetainServer
+2021-08-16 17:09:31.718 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-16 17:09:31.783 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-16 17:09:31.931 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-16 17:09:31.987 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-16 17:09:32.007 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-16 17:09:32.007 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-16 17:09:32.007 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-16 17:09:32.008 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-16 17:09:32.064 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9b54c50bfe439a1b14c36103f238aa0c)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:09:32.091 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:09:32.116 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9b54c50bfe439a1b14c36103f238aa0c)] -> xpath: //input[@value='Next']]
+2021-08-16 17:09:32.141 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:09:32.142 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Path. Hence moving to next page and Message as:
+2021-08-16 17:09:32.201 [main] DEBUG com.retain.utility.RetainWebHelper - Path Configuration already completed.
+2021-08-16 17:09:33.227 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Message store database page..
+2021-08-16 17:09:33.313 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9b54c50bfe439a1b14c36103f238aa0c)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:09:33.340 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:09:33.354 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9b54c50bfe439a1b14c36103f238aa0c)] -> xpath: //input[@value='Next']]
+2021-08-16 17:09:33.376 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:09:33.376 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Message Store Database. Hence moving to next page
+2021-08-16 17:09:34.230 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Database configuration page..
+2021-08-16 17:09:34.281 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9b54c50bfe439a1b14c36103f238aa0c)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:09:34.313 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:09:34.331 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9b54c50bfe439a1b14c36103f238aa0c)] -> xpath: //input[@value='Next']]
+2021-08-16 17:09:34.354 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:09:34.354 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Database. Hence moving to next page
+2021-08-16 17:09:37.071 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Administrator configuration page..
+2021-08-16 17:09:37.093 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9b54c50bfe439a1b14c36103f238aa0c)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:09:37.120 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:09:37.135 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9b54c50bfe439a1b14c36103f238aa0c)] -> xpath: //input[@value='Next']]
+2021-08-16 17:09:37.164 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:09:37.165 [main] DEBUG com.retain.utility.RetainWebHelper - Already Administrator Account. Hence moving to next page
+2021-08-16 17:09:37.937 [main] DEBUG com.retain.utility.RetainWebHelper - We are on SMTP configuration Page
+2021-08-16 17:09:37.960 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9b54c50bfe439a1b14c36103f238aa0c)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:09:37.992 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:09:38.008 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9b54c50bfe439a1b14c36103f238aa0c)] -> xpath: //input[@value='Next']]
+2021-08-16 17:09:38.035 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:09:38.035 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured SMTP Details. Hence moving to next page
+2021-08-16 17:09:40.622 [main] DEBUG com.retain.utility.RetainWebHelper - We are on SMTP configuration Page
+2021-08-16 17:09:40.648 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:09:40.686 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:09:40.687 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with SMTP Details configuration..
+2021-08-16 17:09:40.718 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='server']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.196.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b54c50bfe439a1b14c36103f238aa0c
+*** Element info: {Using=xpath, value=//input[@name='server']}
+2021-08-16 17:10:52.552 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-16 17:10:52.560 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-16 17:10:52.561 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-16 17:10:52.561 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-16 17:10:52.562 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-16 17:10:52.562 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-16 17:10:52.563 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-16 17:10:52.685 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-16 17:10:52.686 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-16 17:10:52.686 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-16 17:10:55.333 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-16 17:10:55.334 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.82/RetainServer
+2021-08-16 17:11:01.379 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-16 17:11:01.460 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-16 17:11:01.636 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-16 17:11:01.718 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-16 17:11:01.746 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-16 17:11:01.747 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-16 17:11:01.748 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-16 17:11:01.749 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-16 17:11:01.818 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4c1b57bb809a25fdf6f8b63c61101736)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:11:01.845 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:11:01.875 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4c1b57bb809a25fdf6f8b63c61101736)] -> xpath: //input[@value='Next']]
+2021-08-16 17:11:01.908 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:11:01.909 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Path. Hence moving to next page and Message as:
+2021-08-16 17:11:01.968 [main] DEBUG com.retain.utility.RetainWebHelper - Path Configuration already completed.
+2021-08-16 17:11:02.750 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Message store database page..
+2021-08-16 17:11:02.784 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4c1b57bb809a25fdf6f8b63c61101736)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:11:02.822 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:11:02.841 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4c1b57bb809a25fdf6f8b63c61101736)] -> xpath: //input[@value='Next']]
+2021-08-16 17:11:02.865 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:11:02.866 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Message Store Database. Hence moving to next page
+2021-08-16 17:11:03.877 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Database configuration page..
+2021-08-16 17:11:03.919 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4c1b57bb809a25fdf6f8b63c61101736)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:11:03.969 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:11:04.001 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4c1b57bb809a25fdf6f8b63c61101736)] -> xpath: //input[@value='Next']]
+2021-08-16 17:11:04.050 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:11:04.050 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured Database. Hence moving to next page
+2021-08-16 17:11:06.076 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Administrator configuration page..
+2021-08-16 17:11:06.100 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4c1b57bb809a25fdf6f8b63c61101736)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:11:06.129 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:11:06.141 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4c1b57bb809a25fdf6f8b63c61101736)] -> xpath: //input[@value='Next']]
+2021-08-16 17:11:06.159 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:11:06.159 [main] DEBUG com.retain.utility.RetainWebHelper - Already Administrator Account. Hence moving to next page
+2021-08-16 17:11:08.055 [main] DEBUG com.retain.utility.RetainWebHelper - We are on SMTP configuration Page
+2021-08-16 17:11:08.072 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4c1b57bb809a25fdf6f8b63c61101736)] -> xpath: //div[@class='config-done']]
+2021-08-16 17:11:08.102 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:11:08.122 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4c1b57bb809a25fdf6f8b63c61101736)] -> xpath: //input[@value='Next']]
+2021-08-16 17:11:08.149 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:11:08.150 [main] DEBUG com.retain.utility.RetainWebHelper - Already Configured SMTP Details. Hence moving to next page
+2021-08-16 17:11:09.052 [main] DEBUG com.retain.utility.RetainWebHelper - We are on indexing configuration page
+2021-08-16 17:11:09.073 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:11:09.108 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:11:09.109 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with Indexing Engine Configuration.
+2021-08-16 17:11:45.512 [main] DEBUG com.retain.utility.RetainWebHelper - We are on retain connection server configuration page 
+2021-08-16 17:11:45.569 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:11:45.636 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:11:45.637 [main] DEBUG com.retain.utility.RetainWebHelper - Configuring Retain Connection Server 
+2021-08-16 17:11:52.177 [main] DEBUG com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"css selector","selector":"#login"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.196.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c1b57bb809a25fdf6f8b63c61101736
+*** Element info: {Using=id, value=login}
+2021-08-16 17:24:35.413 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-16 17:24:35.424 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-16 17:24:35.425 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-16 17:24:35.425 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-16 17:24:35.425 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-16 17:24:35.426 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-16 17:24:35.426 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-16 17:24:35.515 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-16 17:24:35.516 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-16 17:24:35.516 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-16 17:24:37.803 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-16 17:24:37.804 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.82/RetainServer
+2021-08-16 17:24:43.708 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-16 17:24:43.833 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-16 17:24:44.021 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-16 17:24:44.118 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-16 17:24:44.151 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-16 17:24:44.152 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-16 17:24:44.153 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-16 17:24:44.154 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-16 17:24:44.264 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:24:44.344 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:24:44.384 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (f864af706a140c7b475c4b6697f0f336)] -> xpath: //h1[text()='Welcome to Micro Focus Retain']]
+2021-08-16 17:24:44.422 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:24:44.423 [main] DEBUG com.retain.utility.RetainWebHelper - We are on configuration Page. Let's start configuration
+2021-08-16 17:24:44.455 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (f864af706a140c7b475c4b6697f0f336)] -> xpath: //td[text()='Storage Path']]
+2021-08-16 17:24:44.491 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:24:44.754 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (f864af706a140c7b475c4b6697f0f336)] -> xpath: //input[@value='Continue']]
+2021-08-16 17:24:44.786 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:24:51.216 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Message store database page..
+2021-08-16 17:24:51.243 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:24:51.288 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:24:51.317 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (f864af706a140c7b475c4b6697f0f336)] -> xpath: //legend[text()='Message Store Database Connection Parameters']]
+2021-08-16 17:24:51.349 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:24:51.350 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with Message store database..
+2021-08-16 17:25:05.946 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='error']'
+2021-08-16 17:25:05.974 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='error']'
+2021-08-16 17:25:05.978 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Database configuration page..
+2021-08-16 17:25:05.990 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:25:06.028 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:25:06.028 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with DataBase configuration..
+2021-08-16 17:25:19.327 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Administrator configuration page..
+2021-08-16 17:25:19.364 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:25:19.427 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:25:19.428 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with administrator configuration..
+2021-08-16 17:25:23.146 [main] DEBUG com.retain.utility.RetainWebHelper - We are on SMTP configuration Page
+2021-08-16 17:25:23.170 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:25:23.202 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:25:23.202 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with SMTP Details configuration..
+2021-08-16 17:25:26.196 [main] DEBUG com.retain.utility.RetainWebHelper - We are on indexing configuration page
+2021-08-16 17:25:26.219 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:25:26.250 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:25:26.251 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with Indexing Engine Configuration.
+2021-08-16 17:26:01.071 [main] DEBUG com.retain.utility.RetainWebHelper - We are on retain connection server configuration page 
+2021-08-16 17:26:01.108 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:26:01.146 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:26:01.146 [main] DEBUG com.retain.utility.RetainWebHelper - Configuring Retain Connection Server 
+2021-08-16 17:26:07.514 [main] DEBUG com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"css selector","selector":"#login"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.196.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f864af706a140c7b475c4b6697f0f336
+*** Element info: {Using=id, value=login}
+2021-08-16 17:48:39.607 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-16 17:48:39.614 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-16 17:48:39.615 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-16 17:48:39.615 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-16 17:48:39.615 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-16 17:48:39.615 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-16 17:48:39.616 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-16 17:48:39.711 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-16 17:48:39.712 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-16 17:48:39.713 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-16 17:48:42.485 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-16 17:48:42.485 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.82/RetainServer
+2021-08-16 17:48:47.399 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-16 17:48:47.462 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-16 17:48:47.608 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-16 17:48:47.667 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: Proxy element for: DefaultElementLocator 'By.id: login' Title is: Retain: Configuration Wizard
+2021-08-16 17:48:47.686 [main] DEBUG com.retain.utility.RetainWebHelper - Title Retain: Configuration Wizard Found.
+2021-08-16 17:48:47.687 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-16 17:48:47.688 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-16 17:48:47.688 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-16 17:48:47.742 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:48:47.785 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:48:47.815 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (108e4d626221e92d32bbc124a937653c)] -> xpath: //h1[text()='Welcome to Micro Focus Retain']]
+2021-08-16 17:48:47.844 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:48:47.845 [main] DEBUG com.retain.utility.RetainWebHelper - We are on configuration Page. Let's start configuration
+2021-08-16 17:48:47.869 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (108e4d626221e92d32bbc124a937653c)] -> xpath: //td[text()='Storage Path']]
+2021-08-16 17:48:47.889 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:48:48.119 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (108e4d626221e92d32bbc124a937653c)] -> xpath: //input[@value='Continue']]
+2021-08-16 17:48:48.149 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:49:06.376 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Message store database page..
+2021-08-16 17:49:06.424 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:49:06.504 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:49:06.537 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (108e4d626221e92d32bbc124a937653c)] -> xpath: //legend[text()='Message Store Database Connection Parameters']]
+2021-08-16 17:49:06.559 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-16 17:49:06.559 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with Message store database..
+2021-08-16 17:49:21.440 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='error']'
+2021-08-16 17:49:21.477 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='error']'
+2021-08-16 17:49:21.482 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Database configuration page..
+2021-08-16 17:49:21.512 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:49:21.536 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:49:21.537 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with DataBase configuration..
+2021-08-16 17:49:35.596 [main] DEBUG com.retain.utility.RetainWebHelper - We are on Administrator configuration page..
+2021-08-16 17:49:35.646 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:49:35.707 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:49:35.708 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with administrator configuration..
+2021-08-16 17:49:39.430 [main] DEBUG com.retain.utility.RetainWebHelper - We are on SMTP configuration Page
+2021-08-16 17:49:39.461 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:49:39.494 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:49:39.494 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with SMTP Details configuration..
+2021-08-16 17:49:42.862 [main] DEBUG com.retain.utility.RetainWebHelper - We are on indexing configuration page
+2021-08-16 17:49:42.889 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:49:42.920 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:49:42.920 [main] DEBUG com.retain.utility.RetainWebHelper - Continue with Indexing Engine Configuration.
+2021-08-16 17:50:17.192 [main] DEBUG com.retain.utility.RetainWebHelper - We are on retain connection server configuration page 
+2021-08-16 17:50:17.220 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:50:17.251 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='config-done']'
+2021-08-16 17:50:17.252 [main] DEBUG com.retain.utility.RetainWebHelper - Configuring Retain Connection Server 
+2021-08-16 17:50:23.568 [main] DEBUG com.retain.utility.RetainWebHelper - Configuration is done and moving to next step after clicking on complete button
+

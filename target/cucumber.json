@@ -1,0 +1,373 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-21T14:30:32.210Z",
+        "line": 5,
+        "name": "Groupwise module configuration.",
+        "description": "",
+        "id": "retain-server-p0-build-validation-with-windows-server.;groupwise-module-configuration.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10332713800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Load URL for server",
+            "match": {
+              "location": "com.retain.feature.steps.RetainServerLogin.load_retain_server_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9174934700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login with retain server",
+            "match": {
+              "location": "com.retain.feature.steps.RetainServerLogin.login_retain_server()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84318500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Access module configuration page",
+            "match": {
+              "location": "com.retain.feature.steps.ExchangeModuleConfiguration.access_module_configuration_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26949364100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select and enter Groupwise module configuration details",
+            "match": {
+              "location": "com.retain.feature.steps.GroupWiseModuleConfiguration.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1139467800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Refresh address book",
+            "match": {
+              "location": "com.retain.feature.steps.ExchangeModuleConfiguration.refresh_address_book()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RetainServerBuildValidation"
+          },
+          {
+            "name": "@GroupwiseModuleConfiguration"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-21T14:31:19.955Z",
+        "line": 19,
+        "name": "Create Schedule for groupwise module.",
+        "description": "",
+        "id": "retain-server-p0-build-validation-with-windows-server.;create-schedule-for-groupwise-module.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:819)\r\n\tat org.testng.Assert.assertEquals(Assert.java:829)\r\n\tat com.retain.feature.steps.CreateSchedule.enter_base_configuration(CreateSchedule.java:17)\r\n\tat ✽.Access Schedule configuration page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:20)\r\n",
+              "duration": 67452300,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "Access Schedule configuration page",
+            "match": {
+              "location": "com.retain.feature.steps.CreateSchedule.enter_base_configuration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 499400,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Add and create groupwise Schedule details",
+            "match": {
+              "location": "com.retain.feature.steps.CreateSchedule.create_groupwise_schedule()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RetainServerBuildValidation"
+          },
+          {
+            "name": "@CreateGroupWiseSchedule"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-21T14:31:20.071Z",
+        "line": 24,
+        "name": "Create Schedule for exchange module.",
+        "description": "",
+        "id": "retain-server-p0-build-validation-with-windows-server.;create-schedule-for-exchange-module.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:819)\r\n\tat org.testng.Assert.assertEquals(Assert.java:829)\r\n\tat com.retain.feature.steps.CreateSchedule.enter_base_configuration(CreateSchedule.java:17)\r\n\tat ✽.Access Schedule configuration page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:25)\r\n",
+              "duration": 38191200,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "Access Schedule configuration page",
+            "match": {
+              "location": "com.retain.feature.steps.CreateSchedule.enter_base_configuration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 497900,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Add and create exchange Schedule details",
+            "match": {
+              "location": "com.retain.feature.steps.CreateSchedule.create_exchange_schedule()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RetainServerBuildValidation"
+          },
+          {
+            "name": "@CreateExchangeSchedule"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-21T14:31:20.134Z",
+        "line": 29,
+        "name": "Create Profile for groupwise module.",
+        "description": "",
+        "id": "retain-server-p0-build-validation-with-windows-server.;create-profile-for-groupwise-module.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:819)\r\n\tat org.testng.Assert.assertEquals(Assert.java:829)\r\n\tat com.retain.feature.steps.CreateProfile.access_groupwise_profile_page(CreateProfile.java:16)\r\n\tat ✽.Access groupwise profile page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:30)\r\n",
+              "duration": 139871900,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "Access groupwise profile page",
+            "match": {
+              "location": "com.retain.feature.steps.CreateProfile.access_groupwise_profile_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Add and enter groupwise profile details",
+            "match": {
+              "location": "com.retain.feature.steps.CreateProfile.create_groupwise_profile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RetainServerBuildValidation"
+          },
+          {
+            "name": "@CreateGroupWiseProfile"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-21T14:31:20.295Z",
+        "line": 34,
+        "name": "Create Profile for exchange module.",
+        "description": "",
+        "id": "retain-server-p0-build-validation-with-windows-server.;create-profile-for-exchange-module.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:819)\r\n\tat org.testng.Assert.assertEquals(Assert.java:829)\r\n\tat com.retain.feature.steps.CreateProfile.access_exchange_profile_page(CreateProfile.java:28)\r\n\tat ✽.Access exchange profile page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:35)\r\n",
+              "duration": 117053900,
+              "status": "failed"
+            },
+            "line": 35,
+            "name": "Access exchange profile page",
+            "match": {
+              "location": "com.retain.feature.steps.CreateProfile.access_exchange_profile_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 495100,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Add and enter exchange profile details",
+            "match": {
+              "location": "com.retain.feature.steps.CreateProfile.create_exchange_profile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RetainServerBuildValidation"
+          },
+          {
+            "name": "@CreateExchangeProfile"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-21T14:31:20.442Z",
+        "line": 39,
+        "name": "Create Worker for the module.",
+        "description": "",
+        "id": "retain-server-p0-build-validation-with-windows-server.;create-worker-for-the-module.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:819)\r\n\tat org.testng.Assert.assertEquals(Assert.java:829)\r\n\tat com.retain.feature.steps.CreateWorker.access_worker_page(CreateWorker.java:16)\r\n\tat ✽.Access worker page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:40)\r\n",
+              "duration": 38650700,
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "Access worker page",
+            "match": {
+              "location": "com.retain.feature.steps.CreateWorker.access_worker_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "Add and enter worker details",
+            "match": {
+              "location": "com.retain.feature.steps.CreateWorker.create_worker()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "Configure bootstrap for wokrer",
+            "match": {
+              "location": "com.retain.feature.steps.CreateWorker.configure_worker_bootstrap()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RetainServerBuildValidation"
+          },
+          {
+            "name": "@CreateWorker"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-21T14:31:20.499Z",
+        "line": 45,
+        "name": "Create Job for groupwise module",
+        "description": "",
+        "id": "retain-server-p0-build-validation-with-windows-server.;create-job-for-groupwise-module",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:819)\r\n\tat org.testng.Assert.assertEquals(Assert.java:829)\r\n\tat com.retain.feature.steps.CreateJob.access_groupwise_job_page(CreateJob.java:16)\r\n\tat ✽.Access groupwise job page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:46)\r\n",
+              "duration": 129955600,
+              "status": "failed"
+            },
+            "line": 46,
+            "name": "Access groupwise job page",
+            "match": {
+              "location": "com.retain.feature.steps.CreateJob.access_groupwise_job_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Add and enter groupwise job details",
+            "match": {
+              "location": "com.retain.feature.steps.CreateJob.create_groupwise_job()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RetainServerBuildValidation"
+          },
+          {
+            "name": "@CreateGroupWiseJob"
+          }
+        ]
+      }
+    ],
+    "name": "Retain Server P0 Build Validation with windows Server.",
+    "description": "",
+    "id": "retain-server-p0-build-validation-with-windows-server.",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/RetainServerLogin.feature",
+    "tags": [
+      {
+        "name": "@RetainServerBuildValidation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

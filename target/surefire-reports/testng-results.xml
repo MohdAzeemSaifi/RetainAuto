@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="1" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-21T20:00:30 IST" name="Surefire suite" finished-at="2021-08-21T20:01:25 IST" duration-ms="55194">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.retain.TestRunner.TestRunner@448ff1a8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-08-21T20:00:30 IST" name="Surefire test" finished-at="2021-08-21T20:01:25 IST" duration-ms="55194">
+      <class name="com.retain.TestRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.retain.TestRunner.TestRunner@448ff1a8]" started-at="2021-08-21T20:00:30 IST" name="setUpClass" finished-at="2021-08-21T20:00:31 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.retain.TestRunner.TestRunner@448ff1a8]" started-at="2021-08-21T20:00:31 IST" name="feature" data-provider="features" finished-at="2021-08-21T20:01:19 IST" duration-ms="48264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Groupwise module configuration."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Retain Server P0 Build Validation with windows Server.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.retain.TestRunner.TestRunner@448ff1a8]" started-at="2021-08-21T20:01:19 IST" name="feature" data-provider="features" finished-at="2021-08-21T20:01:20 IST" duration-ms="93" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Schedule for groupwise module."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Retain Server P0 Build Validation with windows Server.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.retain.feature.steps.CreateSchedule.enter_base_configuration(CreateSchedule.java:17)
+at ✽.Access Schedule configuration page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.retain.TestRunner.TestRunner@448ff1a8]" started-at="2021-08-21T20:01:20 IST" name="feature" data-provider="features" finished-at="2021-08-21T20:01:20 IST" duration-ms="71" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Schedule for exchange module."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Retain Server P0 Build Validation with windows Server.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.retain.feature.steps.CreateSchedule.enter_base_configuration(CreateSchedule.java:17)
+at ✽.Access Schedule configuration page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:25)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.retain.TestRunner.TestRunner@448ff1a8]" started-at="2021-08-21T20:01:20 IST" name="feature" data-provider="features" finished-at="2021-08-21T20:01:20 IST" duration-ms="162" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Profile for groupwise module."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Retain Server P0 Build Validation with windows Server.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.retain.feature.steps.CreateProfile.access_groupwise_profile_page(CreateProfile.java:16)
+at ✽.Access groupwise profile page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:30)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.retain.TestRunner.TestRunner@448ff1a8]" started-at="2021-08-21T20:01:20 IST" name="feature" data-provider="features" finished-at="2021-08-21T20:01:20 IST" duration-ms="136" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Profile for exchange module."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Retain Server P0 Build Validation with windows Server.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.retain.feature.steps.CreateProfile.access_exchange_profile_page(CreateProfile.java:28)
+at ✽.Access exchange profile page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:35)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.retain.TestRunner.TestRunner@448ff1a8]" started-at="2021-08-21T20:01:20 IST" name="feature" data-provider="features" finished-at="2021-08-21T20:01:20 IST" duration-ms="67" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Worker for the module."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Retain Server P0 Build Validation with windows Server.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.retain.feature.steps.CreateWorker.access_worker_page(CreateWorker.java:16)
+at ✽.Access worker page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:40)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.retain.TestRunner.TestRunner@448ff1a8]" started-at="2021-08-21T20:01:20 IST" name="feature" data-provider="features" finished-at="2021-08-21T20:01:20 IST" duration-ms="148" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Job for groupwise module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Retain Server P0 Build Validation with windows Server.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at com.retain.feature.steps.CreateJob.access_groupwise_job_page(CreateJob.java:16)
+at ✽.Access groupwise job page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:46)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.retain.TestRunner.TestRunner@448ff1a8]" started-at="2021-08-21T20:01:20 IST" name="tearDownClass" finished-at="2021-08-21T20:01:25 IST" duration-ms="5241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.retain.TestRunner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

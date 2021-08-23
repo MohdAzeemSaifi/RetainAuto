@@ -1,0 +1,1310 @@
+2021-08-18 08:27:41.359 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 08:27:41.364 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 08:27:41.364 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 08:27:41.365 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 08:27:41.365 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 08:27:41.365 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 08:27:41.366 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 08:27:41.464 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 08:27:41.464 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 08:27:41.465 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 08:27:44.107 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 08:27:44.111 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 08:27:50.878 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 08:27:50.937 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 08:27:51.084 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 08:27:51.126 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (882eb16ad87ecac26da9cadc9ad73ac4)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 08:27:51.153 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (882eb16ad87ecac26da9cadc9ad73ac4)] -> id: login]
+2021-08-18 08:27:51.190 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 08:27:51.206 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (882eb16ad87ecac26da9cadc9ad73ac4)] -> id: login] Found.
+2021-08-18 08:27:51.207 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 08:27:51.207 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 08:27:51.208 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 08:28:06.015 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 08:28:16.161 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (882eb16ad87ecac26da9cadc9ad73ac4)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 08:28:16.186 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 08:28:16.186 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 08:28:20.512 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 08:28:20.654 [main] ERROR com.retain.utility.RetainWebHelper - Cannot locate element with text: groupWiseModule
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.194.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown
+2021-08-18 08:29:32.088 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 08:29:32.093 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 08:29:32.094 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 08:29:32.094 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 08:29:32.094 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 08:29:32.095 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 08:29:32.095 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 08:29:32.188 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 08:29:32.189 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 08:29:32.190 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 08:29:34.934 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 08:29:34.935 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 08:29:42.145 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 08:29:42.204 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 08:29:42.357 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 08:29:42.401 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (9fb31ffb076377cf14c8dd6f8e095646)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 08:29:42.434 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9fb31ffb076377cf14c8dd6f8e095646)] -> id: login]
+2021-08-18 08:29:42.465 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 08:29:42.483 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (9fb31ffb076377cf14c8dd6f8e095646)] -> id: login] Found.
+2021-08-18 08:29:42.484 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 08:29:42.484 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 08:29:42.485 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 08:30:03.603 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 08:30:13.745 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9fb31ffb076377cf14c8dd6f8e095646)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 08:30:13.766 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 08:30:13.767 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 08:30:18.679 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 08:30:22.403 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 08:30:25.800 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 08:30:26.042 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 08:30:26.220 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 08:30:26.397 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 08:30:26.563 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 08:30:26.725 [main] DEBUG com.retain.utility.RetainWebHelper - Click on All users.
+2021-08-18 08:33:34.965 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 08:33:34.969 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 08:33:34.969 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 08:33:34.970 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 08:33:34.970 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 08:33:34.971 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 08:33:34.971 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 08:33:35.074 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 08:33:35.075 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 08:33:35.076 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 08:33:37.980 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 08:33:37.980 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 08:33:45.574 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 08:33:45.637 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 08:33:45.783 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 08:33:45.837 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (6f61d2ec1df1b133eeed6d765d297491)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 08:33:45.871 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (6f61d2ec1df1b133eeed6d765d297491)] -> id: login]
+2021-08-18 08:33:45.906 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 08:33:45.922 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (6f61d2ec1df1b133eeed6d765d297491)] -> id: login] Found.
+2021-08-18 08:33:45.923 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 08:33:45.923 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 08:33:45.924 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 08:34:05.262 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 08:34:15.405 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (6f61d2ec1df1b133eeed6d765d297491)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 08:34:15.424 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 08:34:15.425 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 08:34:20.167 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 08:34:23.658 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 08:34:27.025 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 08:34:27.301 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 08:34:27.428 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 08:34:27.569 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 08:34:27.684 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 08:34:27.778 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 08:34:32.345 [main] DEBUG com.retain.utility.RetainWebHelper - Click on All users.
+2021-08-18 08:34:42.570 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-18 08:38:23.185 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 08:38:23.190 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 08:38:23.191 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 08:38:23.191 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 08:38:23.191 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 08:38:23.192 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 08:38:23.192 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 08:38:23.281 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 08:38:23.281 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 08:38:23.282 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 08:38:26.148 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 08:38:26.148 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 08:38:34.548 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 08:38:34.601 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 08:38:34.758 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 08:38:34.809 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (f258da1f226410a01171997fe52383c6)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 08:38:34.839 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (f258da1f226410a01171997fe52383c6)] -> id: login]
+2021-08-18 08:38:34.876 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 08:38:34.899 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (f258da1f226410a01171997fe52383c6)] -> id: login] Found.
+2021-08-18 08:38:34.899 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 08:38:34.900 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 08:38:34.900 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 08:38:54.133 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 08:39:04.300 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (f258da1f226410a01171997fe52383c6)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 08:39:04.336 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 08:39:04.337 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 08:39:09.633 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 08:39:12.022 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 08:39:15.985 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 08:39:16.226 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 08:39:16.397 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 08:39:16.564 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 08:39:16.726 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 08:39:16.874 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 08:39:22.120 [main] DEBUG com.retain.utility.RetainWebHelper - Click on All users.
+2021-08-18 08:39:32.370 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-18 09:31:48.340 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 09:31:48.343 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 09:31:48.344 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 09:31:48.344 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 09:31:48.344 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 09:31:48.344 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 09:31:48.344 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 09:31:48.405 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 09:31:48.405 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 09:31:48.405 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 09:31:49.908 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 09:31:49.909 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 09:31:55.203 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 09:31:55.233 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 09:31:55.360 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 09:31:55.382 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (d3179c2cc703a73f052b2787e048679d)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 09:31:55.399 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d3179c2cc703a73f052b2787e048679d)] -> id: login]
+2021-08-18 09:31:55.418 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:31:55.428 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (d3179c2cc703a73f052b2787e048679d)] -> id: login] Found.
+2021-08-18 09:31:55.429 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 09:31:55.429 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 09:31:55.429 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 09:32:05.690 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 09:32:15.757 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d3179c2cc703a73f052b2787e048679d)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 09:32:15.770 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:32:15.770 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 09:32:19.158 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 09:32:21.243 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 09:32:23.775 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 09:32:23.894 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 09:32:23.980 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 09:32:24.058 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 09:32:24.141 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 09:32:24.208 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 09:32:24.278 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:32:24.307 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='NameType']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.194.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d3179c2cc703a73f052b2787e048679d
+*** Element info: {Using=xpath, value=//select[@id='NameType']}
+2021-08-18 09:36:11.073 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 09:36:11.076 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 09:36:11.076 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 09:36:11.076 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 09:36:11.076 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 09:36:11.076 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 09:36:11.077 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 09:36:11.140 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 09:36:11.141 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 09:36:11.141 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 09:36:12.621 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 09:36:12.621 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 09:36:17.702 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 09:36:17.725 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 09:36:17.849 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 09:36:17.872 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (d66c87bfaafa265bebb5435732aa0cd6)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 09:36:17.889 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d66c87bfaafa265bebb5435732aa0cd6)] -> id: login]
+2021-08-18 09:36:17.906 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:36:17.918 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (d66c87bfaafa265bebb5435732aa0cd6)] -> id: login] Found.
+2021-08-18 09:36:17.918 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 09:36:17.918 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 09:36:17.918 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 09:36:27.003 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 09:36:37.085 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d66c87bfaafa265bebb5435732aa0cd6)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 09:36:37.098 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:36:37.099 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 09:36:40.120 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 09:36:41.980 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 09:36:44.467 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 09:36:44.603 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 09:36:44.690 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 09:36:44.774 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 09:36:44.859 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 09:36:44.931 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 09:36:45.006 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:36:45.026 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='NameType']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.194.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52694}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d66c87bfaafa265bebb5435732aa0cd6
+*** Element info: {Using=xpath, value=//select[@id='NameType']}
+2021-08-18 09:37:09.531 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 09:37:09.534 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 09:37:09.535 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 09:37:09.535 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 09:37:09.535 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 09:37:09.535 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 09:37:09.535 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 09:37:09.586 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 09:37:09.586 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 09:37:09.587 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 09:37:11.080 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 09:37:11.080 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 09:37:16.248 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 09:37:16.272 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 09:37:16.404 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 09:37:16.426 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (0ebecfe01a7aa0dae8225865848fbd13)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 09:37:16.442 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (0ebecfe01a7aa0dae8225865848fbd13)] -> id: login]
+2021-08-18 09:37:16.460 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:37:16.470 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (0ebecfe01a7aa0dae8225865848fbd13)] -> id: login] Found.
+2021-08-18 09:37:16.470 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 09:37:16.470 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 09:37:16.470 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 09:37:24.497 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 09:37:34.566 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (0ebecfe01a7aa0dae8225865848fbd13)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 09:37:34.579 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:37:34.580 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 09:37:37.628 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 09:37:39.268 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 09:37:41.481 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 09:37:41.610 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 09:37:41.695 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 09:37:41.778 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 09:37:41.862 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 09:37:41.931 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 09:37:41.997 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:37:42.018 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='NameType']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.194.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62179}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ebecfe01a7aa0dae8225865848fbd13
+*** Element info: {Using=xpath, value=//select[@id='NameType']}
+2021-08-18 09:40:00.681 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 09:40:00.684 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 09:40:00.684 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 09:40:00.684 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 09:40:00.685 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 09:40:00.685 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 09:40:00.685 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 09:40:00.742 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 09:40:00.743 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 09:40:00.743 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 09:40:02.481 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 09:40:02.482 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 09:40:07.648 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 09:40:07.676 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 09:40:07.800 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 09:40:07.819 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (c9c92748947931e7aff97dc5352aabda)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 09:40:07.835 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (c9c92748947931e7aff97dc5352aabda)] -> id: login]
+2021-08-18 09:40:07.853 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:40:07.866 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (c9c92748947931e7aff97dc5352aabda)] -> id: login] Found.
+2021-08-18 09:40:07.867 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 09:40:07.867 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 09:40:07.867 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 09:40:16.232 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 09:40:26.299 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (c9c92748947931e7aff97dc5352aabda)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 09:40:26.312 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:40:26.312 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 09:40:29.370 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 09:40:30.962 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 09:40:33.221 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 09:40:33.355 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 09:40:33.441 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 09:40:33.525 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 09:40:33.610 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 09:40:33.673 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 09:40:33.821 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:40:33.839 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='NameType']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.194.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9c92748947931e7aff97dc5352aabda
+*** Element info: {Using=xpath, value=//select[@id='NameType']}
+2021-08-18 09:42:26.746 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 09:42:26.749 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 09:42:26.749 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 09:42:26.749 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 09:42:26.750 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 09:42:26.750 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 09:42:26.750 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 09:42:26.807 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 09:42:26.807 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 09:42:26.807 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 09:42:28.319 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 09:42:28.319 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 09:42:33.610 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 09:42:33.634 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 09:42:33.764 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 09:42:33.789 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (14838cd41596b69982d982e97d89e054)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 09:42:33.810 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (14838cd41596b69982d982e97d89e054)] -> id: login]
+2021-08-18 09:42:33.829 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:42:33.840 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (14838cd41596b69982d982e97d89e054)] -> id: login] Found.
+2021-08-18 09:42:33.841 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 09:42:33.841 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 09:42:33.841 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 09:42:42.760 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 09:42:52.852 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (14838cd41596b69982d982e97d89e054)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 09:42:52.868 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:42:52.868 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 09:42:55.866 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 09:42:57.890 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 09:43:00.406 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 09:43:00.529 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 09:43:00.612 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 09:43:00.697 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 09:43:00.782 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 09:43:00.849 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 09:43:01.011 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:43:01.032 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='NameType']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.194.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14838cd41596b69982d982e97d89e054
+*** Element info: {Using=xpath, value=//select[@id='NameType']}
+2021-08-18 09:46:31.772 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 09:46:31.776 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 09:46:31.776 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 09:46:31.776 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 09:46:31.776 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 09:46:31.776 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 09:46:31.777 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 09:46:31.832 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 09:46:31.832 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 09:46:31.832 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 09:46:33.391 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 09:46:33.391 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 09:46:38.654 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 09:46:38.680 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 09:46:38.808 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 09:46:38.830 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (7e2fbec8495f1b289412831421d0f6b0)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 09:46:38.851 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (7e2fbec8495f1b289412831421d0f6b0)] -> id: login]
+2021-08-18 09:46:38.867 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:46:38.883 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (7e2fbec8495f1b289412831421d0f6b0)] -> id: login] Found.
+2021-08-18 09:46:38.883 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 09:46:38.884 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 09:46:38.884 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 09:46:47.864 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 09:46:57.931 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (7e2fbec8495f1b289412831421d0f6b0)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 09:46:57.944 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:46:57.944 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 09:47:00.996 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 09:47:02.645 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 09:47:04.950 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 09:47:05.080 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 09:47:05.159 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 09:47:05.241 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 09:47:05.323 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 09:47:05.388 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 09:47:10.549 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:47:10.550 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 09:47:10.567 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='NameOperator']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.194.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e2fbec8495f1b289412831421d0f6b0
+*** Element info: {Using=xpath, value=//select[@id='NameOperator']}
+2021-08-18 09:47:39.808 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 09:47:39.812 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 09:47:39.813 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 09:47:39.813 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 09:47:39.813 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 09:47:39.814 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 09:47:39.814 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 09:47:39.886 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 09:47:39.887 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 09:47:39.887 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 09:47:41.524 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 09:47:41.524 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 09:47:46.650 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 09:47:46.683 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 09:47:46.810 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 09:47:46.832 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (b4d65c118c6bcba22ef262d4c88e77a8)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 09:47:46.850 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (b4d65c118c6bcba22ef262d4c88e77a8)] -> id: login]
+2021-08-18 09:47:46.871 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:47:46.886 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (b4d65c118c6bcba22ef262d4c88e77a8)] -> id: login] Found.
+2021-08-18 09:47:46.887 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 09:47:46.887 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 09:47:46.887 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 09:47:57.700 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 09:48:07.780 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (b4d65c118c6bcba22ef262d4c88e77a8)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 09:48:07.794 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:48:07.794 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 09:48:10.879 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 09:48:12.607 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 09:48:14.955 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 09:48:15.083 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 09:48:15.176 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 09:48:15.259 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 09:48:15.342 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 09:48:15.408 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 09:48:20.566 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:48:20.566 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 09:48:20.567 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: edir1@blr.novell.com
+2021-08-18 09:48:20.587 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='NamePhrase']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.194.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4d65c118c6bcba22ef262d4c88e77a8
+*** Element info: {Using=xpath, value=//input[@id='NamePhrase']}
+2021-08-18 09:50:00.125 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 09:50:00.128 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 09:50:00.128 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 09:50:00.128 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 09:50:00.129 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 09:50:00.129 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 09:50:00.129 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 09:50:00.197 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 09:50:00.197 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 09:50:00.198 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 09:50:01.662 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 09:50:01.663 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 09:50:06.692 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 09:50:06.724 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 09:50:06.851 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 09:50:06.876 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (35c9a59bfcb1732e50e2c8bcc0663319)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 09:50:06.899 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (35c9a59bfcb1732e50e2c8bcc0663319)] -> id: login]
+2021-08-18 09:50:06.922 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:50:06.936 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (35c9a59bfcb1732e50e2c8bcc0663319)] -> id: login] Found.
+2021-08-18 09:50:06.936 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 09:50:06.936 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 09:50:06.937 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 09:50:15.761 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 09:50:25.837 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (35c9a59bfcb1732e50e2c8bcc0663319)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 09:50:25.850 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:50:25.850 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 09:50:37.831 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 09:50:39.461 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 09:50:41.712 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 09:50:41.846 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 09:50:41.931 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 09:50:42.016 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 09:50:42.096 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 09:50:42.161 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 09:50:51.164 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:50:51.246 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 09:50:51.324 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: edir1@blr.novell.com
+2021-08-18 09:50:51.515 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick='CheckMe(this)']'
+2021-08-18 09:50:51.531 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick='CheckMe(this)']'
+2021-08-18 09:50:51.532 [main] WARN  com.retain.utility.RetainWebHelper - Email Address not available in the list: edir1@blr.novell.com
+2021-08-18 09:50:51.532 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-18 09:50:52.479 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:50:52.492 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='NameType']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.194.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 35c9a59bfcb1732e50e2c8bcc0663319
+*** Element info: {Using=xpath, value=//select[@id='NameType']}
+2021-08-18 09:53:17.970 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 09:53:17.973 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 09:53:17.973 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 09:53:17.973 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 09:53:17.973 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 09:53:17.974 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 09:53:17.974 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 09:53:18.032 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 09:53:18.033 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 09:53:18.033 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 09:53:19.963 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 09:53:19.964 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 09:53:25.514 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 09:53:25.538 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 09:53:25.664 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 09:53:25.684 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (c44d6466434653a7bda0d3aa04854217)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 09:53:25.703 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (c44d6466434653a7bda0d3aa04854217)] -> id: login]
+2021-08-18 09:53:25.719 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:53:25.730 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (c44d6466434653a7bda0d3aa04854217)] -> id: login] Found.
+2021-08-18 09:53:25.730 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 09:53:25.730 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 09:53:25.731 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 09:53:37.237 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 09:53:47.321 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (c44d6466434653a7bda0d3aa04854217)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 09:53:47.340 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:53:47.340 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 09:53:50.537 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 09:53:52.351 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 09:53:54.634 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 09:53:54.757 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 09:53:54.843 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 09:53:54.927 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 09:53:55.010 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 09:53:55.072 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 09:54:03.178 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:54:03.255 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 09:54:03.331 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: edir1@blr.novell.com
+2021-08-18 09:54:08.552 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (c44d6466434653a7bda0d3aa04854217)] -> xpath: //input[@onclick='CheckMe(this)']]
+2021-08-18 09:54:08.564 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:54:08.564 [main] WARN  com.retain.utility.RetainWebHelper - Email Address is available in the list: edir1@blr.novell.com
+2021-08-18 09:54:08.564 [main] DEBUG com.retain.utility.RetainWebHelper - Selected check box for Email Address: edir1@blr.novell.com
+2021-08-18 09:54:08.648 [main] DEBUG com.retain.utility.RetainWebHelper - Add Selected for the email: edir1@blr.novell.com
+2021-08-18 09:54:08.746 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-18 09:54:09.488 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:54:09.505 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='NameType']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.194.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c44d6466434653a7bda0d3aa04854217
+*** Element info: {Using=xpath, value=//select[@id='NameType']}
+2021-08-18 09:55:57.287 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 09:55:57.290 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 09:55:57.290 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 09:55:57.290 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 09:55:57.290 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 09:55:57.290 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 09:55:57.290 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 09:55:57.346 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 09:55:57.346 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 09:55:57.347 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 09:55:59.090 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 09:55:59.091 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 09:56:06.169 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 09:56:06.193 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 09:56:06.325 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 09:56:06.349 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (4b6bbc9d7975445f575c5ae465a0040b)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 09:56:06.370 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4b6bbc9d7975445f575c5ae465a0040b)] -> id: login]
+2021-08-18 09:56:06.392 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:56:06.407 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (4b6bbc9d7975445f575c5ae465a0040b)] -> id: login] Found.
+2021-08-18 09:56:06.407 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 09:56:06.407 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 09:56:06.407 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 09:56:21.531 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 09:56:31.636 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4b6bbc9d7975445f575c5ae465a0040b)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 09:56:31.651 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:56:31.651 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 09:56:43.594 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 09:56:45.505 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 09:56:48.125 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 09:56:48.254 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 09:56:48.338 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 09:56:48.423 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 09:56:48.504 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 09:56:48.571 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 09:56:56.577 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:56:56.652 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 09:56:56.726 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: edir1@blr.novell.com
+2021-08-18 09:57:01.927 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (4b6bbc9d7975445f575c5ae465a0040b)] -> xpath: //input[@onclick='CheckMe(this)']]
+2021-08-18 09:57:01.939 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:57:01.939 [main] WARN  com.retain.utility.RetainWebHelper - Email Address is available in the list: edir1@blr.novell.com
+2021-08-18 09:57:01.939 [main] DEBUG com.retain.utility.RetainWebHelper - Selected check box for Email Address: edir1@blr.novell.com
+2021-08-18 09:57:02.035 [main] DEBUG com.retain.utility.RetainWebHelper - Add Selected for the email: edir1@blr.novell.com
+2021-08-18 09:57:02.125 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-18 09:57:03.142 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 09:57:03.159 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='NameType']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.194.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59182}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b6bbc9d7975445f575c5ae465a0040b
+*** Element info: {Using=xpath, value=//select[@id='NameType']}
+2021-08-18 09:59:24.960 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 09:59:24.965 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 09:59:24.965 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 09:59:24.965 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 09:59:24.965 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 09:59:24.965 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 09:59:24.966 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 09:59:25.033 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 09:59:25.034 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 09:59:25.034 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 09:59:26.547 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 09:59:26.547 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 09:59:32.450 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 09:59:32.479 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 09:59:32.605 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 09:59:32.629 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (1e8b1d0f7cfe075a006424fb91f0d697)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 09:59:32.646 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (1e8b1d0f7cfe075a006424fb91f0d697)] -> id: login]
+2021-08-18 09:59:32.665 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:59:32.678 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (1e8b1d0f7cfe075a006424fb91f0d697)] -> id: login] Found.
+2021-08-18 09:59:32.679 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 09:59:32.679 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 09:59:32.680 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 09:59:43.919 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 09:59:53.987 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (1e8b1d0f7cfe075a006424fb91f0d697)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 09:59:54.001 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 09:59:54.002 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 09:59:57.105 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 09:59:58.873 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 10:00:02.050 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 10:00:02.184 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 10:00:02.278 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 10:00:02.361 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 10:00:02.446 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 10:00:02.511 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 10:00:10.603 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 10:00:10.712 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 10:00:10.800 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: edir1@blr.novell.com
+2021-08-18 10:00:16.024 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (1e8b1d0f7cfe075a006424fb91f0d697)] -> xpath: //input[@onclick='CheckMe(this)']]
+2021-08-18 10:00:16.035 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 10:00:16.035 [main] WARN  com.retain.utility.RetainWebHelper - Email Address is available in the list: edir1@blr.novell.com
+2021-08-18 10:00:16.035 [main] DEBUG com.retain.utility.RetainWebHelper - Selected check box for Email Address: edir1@blr.novell.com
+2021-08-18 10:00:16.127 [main] DEBUG com.retain.utility.RetainWebHelper - Add Selected for the email: edir1@blr.novell.com
+2021-08-18 10:00:16.225 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 10:00:16.275 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 10:00:16.323 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: azeem@blr.novell.com
+2021-08-18 10:00:21.457 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (1e8b1d0f7cfe075a006424fb91f0d697)] -> xpath: //input[@onclick='CheckMe(this)']]
+2021-08-18 10:00:21.468 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 10:00:21.468 [main] WARN  com.retain.utility.RetainWebHelper - Email Address is available in the list: azeem@blr.novell.com
+2021-08-18 10:00:21.468 [main] DEBUG com.retain.utility.RetainWebHelper - Selected check box for Email Address: azeem@blr.novell.com
+2021-08-18 10:00:21.549 [main] DEBUG com.retain.utility.RetainWebHelper - Add Selected for the email: azeem@blr.novell.com
+2021-08-18 10:00:21.618 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-18 10:03:41.755 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 10:03:41.758 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 10:03:41.758 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 10:03:41.758 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 10:03:41.759 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 10:03:41.759 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 10:03:41.759 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 10:03:41.813 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 10:03:41.813 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 10:03:41.813 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 10:03:43.409 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 10:03:43.410 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 10:03:48.642 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 10:03:48.665 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 10:03:48.796 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 10:03:48.824 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (53c5e6fa39352dad8b61af6a2ae782b6)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 10:03:48.843 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (53c5e6fa39352dad8b61af6a2ae782b6)] -> id: login]
+2021-08-18 10:03:48.864 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 10:03:48.877 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (53c5e6fa39352dad8b61af6a2ae782b6)] -> id: login] Found.
+2021-08-18 10:03:48.877 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 10:03:48.877 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 10:03:48.877 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 10:03:57.811 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 10:04:07.885 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (53c5e6fa39352dad8b61af6a2ae782b6)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 10:04:07.899 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 10:04:07.899 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 10:04:11.298 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 10:04:12.884 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 10:04:16.140 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 10:04:16.283 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 10:04:16.371 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 10:04:16.453 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 10:04:16.541 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 10:04:16.607 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 10:04:24.503 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 10:04:24.588 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 10:04:24.664 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: edir1@blr.novell.com
+2021-08-18 10:04:29.877 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (53c5e6fa39352dad8b61af6a2ae782b6)] -> xpath: //input[@onclick='CheckMe(this)']]
+2021-08-18 10:04:29.889 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 10:04:29.889 [main] WARN  com.retain.utility.RetainWebHelper - Email Address is available in the list: edir1@blr.novell.com
+2021-08-18 10:04:29.889 [main] DEBUG com.retain.utility.RetainWebHelper - Selected check box for Email Address: edir1@blr.novell.com
+2021-08-18 10:04:29.988 [main] DEBUG com.retain.utility.RetainWebHelper - Add Selected for the email: edir1@blr.novell.com
+2021-08-18 10:04:30.081 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: azeem@blr.novell.com
+2021-08-18 10:04:35.274 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (53c5e6fa39352dad8b61af6a2ae782b6)] -> xpath: //input[@onclick='CheckMe(this)']]
+2021-08-18 10:04:35.286 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 10:04:35.286 [main] WARN  com.retain.utility.RetainWebHelper - Email Address is available in the list: azeem@blr.novell.com
+2021-08-18 10:04:35.286 [main] DEBUG com.retain.utility.RetainWebHelper - Selected check box for Email Address: azeem@blr.novell.com
+2021-08-18 10:04:35.359 [main] DEBUG com.retain.utility.RetainWebHelper - Add Selected for the email: azeem@blr.novell.com
+2021-08-18 10:04:35.428 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-18 10:07:44.046 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 10:07:44.050 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 10:07:44.050 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 10:07:44.050 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 10:07:44.050 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 10:07:44.051 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 10:07:44.051 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 10:07:44.102 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 10:07:44.102 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 10:07:44.102 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 10:07:45.642 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 10:07:45.642 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 10:07:51.167 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 10:07:51.189 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 10:07:51.315 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 10:07:51.338 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (8b06b56ae959e6fd5f26021324f4d705)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 10:07:51.359 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (8b06b56ae959e6fd5f26021324f4d705)] -> id: login]
+2021-08-18 10:07:51.380 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 10:07:51.392 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (8b06b56ae959e6fd5f26021324f4d705)] -> id: login] Found.
+2021-08-18 10:07:51.392 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 10:07:51.392 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 10:07:51.393 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 10:08:02.490 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 10:08:12.555 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (8b06b56ae959e6fd5f26021324f4d705)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 10:08:12.570 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 10:08:12.570 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 10:08:15.790 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 10:08:17.698 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 10:08:20.110 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 10:08:20.234 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 10:08:20.317 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 10:08:20.396 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 10:08:20.478 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 10:08:20.543 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 10:08:28.414 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 10:08:28.495 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 10:08:28.577 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: 0 :  edir1@blr.novell.com
+2021-08-18 10:08:33.790 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (8b06b56ae959e6fd5f26021324f4d705)] -> xpath: //input[@onclick='CheckMe(this)']]
+2021-08-18 10:08:33.802 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 10:08:33.803 [main] WARN  com.retain.utility.RetainWebHelper - Email Address is available in the list: edir1@blr.novell.com
+2021-08-18 10:08:33.803 [main] DEBUG com.retain.utility.RetainWebHelper - Selected check box for Email Address: edir1@blr.novell.com
+2021-08-18 10:08:33.886 [main] DEBUG com.retain.utility.RetainWebHelper - Add Selected for the email: edir1@blr.novell.com
+2021-08-18 10:08:33.979 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: 1 :  azeem@blr.novell.com
+2021-08-18 10:08:39.140 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick='CheckMe(this)']'
+2021-08-18 10:08:39.155 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick='CheckMe(this)']'
+2021-08-18 10:08:39.156 [main] WARN  com.retain.utility.RetainWebHelper - Email Address not available in the list: azeem@blr.novell.com
+2021-08-18 10:08:39.156 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-18 11:28:43.749 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 11:28:43.758 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 11:28:43.759 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 11:28:43.759 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 11:28:43.760 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 11:28:43.761 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 11:28:43.761 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 11:28:43.875 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 11:28:43.876 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 11:28:43.877 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 11:28:46.689 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 11:28:46.690 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 11:28:52.601 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 11:28:52.663 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 11:28:52.803 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 11:28:52.851 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (bd6d249a88344add05f1fd5d27b4b02f)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 11:28:52.884 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (bd6d249a88344add05f1fd5d27b4b02f)] -> id: login]
+2021-08-18 11:28:52.920 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 11:28:52.939 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (bd6d249a88344add05f1fd5d27b4b02f)] -> id: login] Found.
+2021-08-18 11:28:52.940 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 11:28:52.940 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 11:28:52.941 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 11:29:02.573 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 11:29:12.719 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (bd6d249a88344add05f1fd5d27b4b02f)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 11:29:12.740 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 11:29:12.741 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 11:29:19.832 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 11:29:21.995 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 11:29:25.325 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 11:29:25.563 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 11:29:25.739 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 11:29:25.928 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 11:29:26.215 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 11:29:26.448 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 11:29:35.304 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mailserver based on provided in retain properties file.
+2021-08-18 11:29:35.305 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: ExternalPO
+2021-08-18 11:29:35.341 [main] ERROR com.retain.utility.RetainWebHelper - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@onkeyup="CompleteMe('po_root',this,3)"]"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.195.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd6d249a88344add05f1fd5d27b4b02f
+*** Element info: {Using=xpath, value=//input[@onkeyup="CompleteMe('po_root',this,3)"]}
+2021-08-18 11:31:54.494 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 11:31:54.501 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 11:31:54.501 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 11:31:54.501 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 11:31:54.502 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 11:31:54.502 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 11:31:54.502 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 11:31:54.592 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 11:31:54.592 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 11:31:54.593 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 11:31:57.390 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 11:31:57.406 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 11:32:03.668 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 11:32:03.724 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 11:32:03.873 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 11:32:03.913 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (0d68521fd28241c44d38d613cacfc957)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 11:32:03.939 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (0d68521fd28241c44d38d613cacfc957)] -> id: login]
+2021-08-18 11:32:03.974 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 11:32:03.996 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (0d68521fd28241c44d38d613cacfc957)] -> id: login] Found.
+2021-08-18 11:32:03.996 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 11:32:03.997 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 11:32:03.997 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 11:32:16.995 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 11:32:27.260 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (0d68521fd28241c44d38d613cacfc957)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 11:32:27.285 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 11:32:27.286 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 11:32:31.307 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 11:32:33.744 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 11:32:36.534 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 11:32:36.824 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 11:32:36.987 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 11:32:37.157 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 11:32:37.320 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 11:32:42.473 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mailserver based on provided in retain properties file.
+2021-08-18 11:32:42.473 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: ExternalPO
+2021-08-18 11:32:42.579 [main] ERROR com.retain.utility.RetainWebHelper - invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.195.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52275}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d68521fd28241c44d38d613cacfc957
+2021-08-18 11:36:14.447 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 11:36:14.451 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 11:36:14.452 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 11:36:14.452 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 11:36:14.452 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 11:36:14.452 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 11:36:14.453 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 11:36:14.539 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 11:36:14.539 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 11:36:14.540 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 11:36:17.095 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 11:36:17.095 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 11:36:23.529 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 11:36:23.588 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 11:36:23.734 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 11:36:23.789 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (d8da3f7b603b8e2fce9c341ca3b268b9)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 11:36:23.832 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d8da3f7b603b8e2fce9c341ca3b268b9)] -> id: login]
+2021-08-18 11:36:23.873 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 11:36:23.900 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (d8da3f7b603b8e2fce9c341ca3b268b9)] -> id: login] Found.
+2021-08-18 11:36:23.900 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 11:36:23.901 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 11:36:23.901 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 11:36:36.559 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 11:36:46.685 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d8da3f7b603b8e2fce9c341ca3b268b9)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 11:36:46.704 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 11:36:46.704 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 11:36:52.166 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 11:36:54.894 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 11:36:58.196 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 11:36:58.427 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 11:36:58.546 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 11:36:58.678 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 11:36:58.797 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 11:37:03.906 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mail Servers
+2021-08-18 11:37:04.033 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mailserver based retain properties file.
+2021-08-18 11:37:04.033 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: ExternalPO
+2021-08-18 11:37:06.353 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d8da3f7b603b8e2fce9c341ca3b268b9)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 11:37:06.379 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 11:37:06.379 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : ExternalPO
+2021-08-18 11:37:06.487 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: office365
+2021-08-18 11:37:08.715 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (d8da3f7b603b8e2fce9c341ca3b268b9)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 11:37:08.731 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 11:37:08.731 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : office365
+2021-08-18 11:37:08.774 [main] ERROR com.retain.utility.RetainWebHelper - element not interactable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.195.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\MASaifi\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8da3f7b603b8e2fce9c341ca3b268b9
+2021-08-18 16:14:23.426 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 16:14:23.434 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 16:14:23.434 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 16:14:23.435 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 16:14:23.436 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 16:14:23.436 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 16:14:23.437 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 16:14:23.516 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 16:14:23.516 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 16:14:23.516 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 16:14:26.415 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 16:14:26.415 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 16:14:34.244 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 16:14:34.348 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 16:14:34.530 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 16:14:34.565 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (995d5076915882a956a73b0473f65951)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 16:14:34.588 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (995d5076915882a956a73b0473f65951)] -> id: login]
+2021-08-18 16:14:34.612 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:14:34.636 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (995d5076915882a956a73b0473f65951)] -> id: login] Found.
+2021-08-18 16:14:34.637 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 16:14:34.637 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 16:14:34.638 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 16:14:53.970 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 16:15:04.096 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (995d5076915882a956a73b0473f65951)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 16:15:04.119 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:15:04.119 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 16:15:08.488 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 16:15:12.992 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 16:15:18.532 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 16:15:18.966 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 16:15:19.134 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 16:15:19.299 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 16:15:19.482 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 16:15:24.629 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mail Servers
+2021-08-18 16:15:24.915 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mailserver based retain properties file.
+2021-08-18 16:15:24.919 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: ExternalPO
+2021-08-18 16:15:30.383 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (995d5076915882a956a73b0473f65951)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 16:15:30.431 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:15:30.432 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : ExternalPO
+2021-08-18 16:15:30.694 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: office365
+2021-08-18 16:15:36.072 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (995d5076915882a956a73b0473f65951)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 16:15:36.107 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:15:36.108 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : office365
+2021-08-18 16:15:36.331 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: RetainPO
+2021-08-18 16:15:41.639 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (995d5076915882a956a73b0473f65951)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 16:15:41.660 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:15:41.661 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : RetainPO
+2021-08-18 16:15:41.790 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 16:15:45.984 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 16:15:46.134 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 16:15:46.241 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: 0 :  edir1@blr.novell.com
+2021-08-18 16:15:51.717 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (995d5076915882a956a73b0473f65951)] -> xpath: //input[@onclick='CheckMe(this)']]
+2021-08-18 16:15:51.738 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:15:51.739 [main] WARN  com.retain.utility.RetainWebHelper - Email Address is available in the list: edir1@blr.novell.com
+2021-08-18 16:15:51.739 [main] DEBUG com.retain.utility.RetainWebHelper - Selected check box for Email Address: edir1@blr.novell.com
+2021-08-18 16:15:51.925 [main] DEBUG com.retain.utility.RetainWebHelper - Add Selected for the email: edir1@blr.novell.com
+2021-08-18 16:15:52.129 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: 1 :  azeem@blr.novell.com
+2021-08-18 16:15:57.412 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick='CheckMe(this)']'
+2021-08-18 16:15:57.470 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick='CheckMe(this)']'
+2021-08-18 16:15:57.471 [main] WARN  com.retain.utility.RetainWebHelper - Email Address not available in the list: azeem@blr.novell.com
+2021-08-18 16:15:57.473 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-18 16:22:49.679 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 16:22:49.685 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 16:22:49.685 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 16:22:49.685 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 16:22:49.686 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 16:22:49.686 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 16:22:49.686 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 16:22:49.774 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 16:22:49.775 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 16:22:49.776 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 16:22:52.573 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 16:22:52.574 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 16:23:01.791 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 16:23:01.868 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 16:23:02.010 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 16:23:02.040 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (e12c1a11989df2888297cf80c3d75060)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 16:23:02.066 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e12c1a11989df2888297cf80c3d75060)] -> id: login]
+2021-08-18 16:23:02.091 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:23:02.109 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (e12c1a11989df2888297cf80c3d75060)] -> id: login] Found.
+2021-08-18 16:23:02.109 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 16:23:02.110 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 16:23:02.110 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 16:23:21.812 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 16:23:31.983 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e12c1a11989df2888297cf80c3d75060)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 16:23:32.004 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:23:32.005 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 16:23:36.034 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 16:23:39.855 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 16:23:44.475 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 16:23:44.756 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 16:23:44.949 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 16:23:45.212 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 16:23:45.480 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 16:23:50.736 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mail Servers
+2021-08-18 16:23:51.016 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mailserver based retain properties file.
+2021-08-18 16:23:51.017 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: ExternalPO
+2021-08-18 16:23:56.458 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e12c1a11989df2888297cf80c3d75060)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 16:23:56.502 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:23:56.502 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : ExternalPO
+2021-08-18 16:23:56.748 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: office365
+2021-08-18 16:24:02.104 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e12c1a11989df2888297cf80c3d75060)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 16:24:02.125 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:24:02.125 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : office365
+2021-08-18 16:24:02.251 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: RetainPO
+2021-08-18 16:24:07.471 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e12c1a11989df2888297cf80c3d75060)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 16:24:07.488 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:24:07.489 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : RetainPO
+2021-08-18 16:24:07.608 [main] DEBUG com.retain.utility.RetainWebHelper - Mail Servers added successfully !!!!
+2021-08-18 16:24:07.608 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 16:24:17.794 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 16:24:18.098 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 16:24:18.391 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: 0 :  edir1@blr.novell.com
+2021-08-18 16:24:23.856 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e12c1a11989df2888297cf80c3d75060)] -> xpath: //input[@onclick='CheckMe(this)']]
+2021-08-18 16:24:23.894 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:24:23.895 [main] WARN  com.retain.utility.RetainWebHelper - Email Address is available in the list: edir1@blr.novell.com
+2021-08-18 16:24:23.896 [main] DEBUG com.retain.utility.RetainWebHelper - Selected check box for Email Address: edir1@blr.novell.com
+2021-08-18 16:24:24.223 [main] DEBUG com.retain.utility.RetainWebHelper - Add Selected for the email: edir1@blr.novell.com
+2021-08-18 16:24:24.556 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: 1 :  azeem@blr.novell.com
+2021-08-18 16:24:30.127 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick='CheckMe(this)']'
+2021-08-18 16:24:30.187 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick='CheckMe(this)']'
+2021-08-18 16:24:30.188 [main] WARN  com.retain.utility.RetainWebHelper - Email Address not available in the list: azeem@blr.novell.com
+2021-08-18 16:24:30.188 [main] ERROR com.retain.utility.RetainWebHelper - Include users not added and have some issue.
+2021-08-18 16:25:27.523 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 16:25:27.528 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 16:25:27.529 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 16:25:27.529 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 16:25:27.530 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 16:25:27.530 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 16:25:27.530 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 16:25:27.616 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 16:25:27.617 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 16:25:27.617 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 16:25:30.119 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 16:25:30.119 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 16:25:38.043 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 16:25:38.103 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 16:25:38.249 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 16:25:38.280 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (9e879e3b134d3acc7f6393c029ee550e)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 16:25:38.307 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9e879e3b134d3acc7f6393c029ee550e)] -> id: login]
+2021-08-18 16:25:38.330 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:25:38.346 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (9e879e3b134d3acc7f6393c029ee550e)] -> id: login] Found.
+2021-08-18 16:25:38.347 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 16:25:38.348 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 16:25:38.348 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 16:25:53.203 [main] DEBUG com.retain.utility.RetainWebHelper - Click on group wise Job under Data Collection..
+2021-08-18 16:26:03.344 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9e879e3b134d3acc7f6393c029ee550e)] -> xpath: //a[@href='/RetainServer/Manager/jobmanagement.jsp']]
+2021-08-18 16:26:03.362 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:26:03.362 [main] DEBUG com.retain.utility.RetainWebHelper - Click on groupwise job
+2021-08-18 16:26:08.540 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting group wise module from the list and name is: groupWiseModule
+2021-08-18 16:26:11.629 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 16:26:14.207 [main] DEBUG com.retain.utility.RetainWebHelper - Group wise job name is: exchangeJob
+2021-08-18 16:26:14.477 [main] DEBUG com.retain.utility.RetainWebHelper - Select Schedule: exchangeSchedule
+2021-08-18 16:26:14.644 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : groupWiseProfile
+2021-08-18 16:26:14.806 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 16:26:14.978 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 16:26:20.142 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mail Servers
+2021-08-18 16:26:20.282 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mailserver based retain properties file.
+2021-08-18 16:26:20.282 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: ExternalPO
+2021-08-18 16:26:25.471 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9e879e3b134d3acc7f6393c029ee550e)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 16:26:25.499 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:26:25.500 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : ExternalPO
+2021-08-18 16:26:25.623 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: office365
+2021-08-18 16:26:30.855 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9e879e3b134d3acc7f6393c029ee550e)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 16:26:30.871 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:26:30.871 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : office365
+2021-08-18 16:26:30.990 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: RetainPO
+2021-08-18 16:26:36.190 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9e879e3b134d3acc7f6393c029ee550e)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 16:26:36.210 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:26:36.211 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : RetainPO
+2021-08-18 16:26:36.331 [main] DEBUG com.retain.utility.RetainWebHelper - Mail Servers added successfully !!!!
+2021-08-18 16:26:36.331 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 16:26:41.404 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 16:26:41.553 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 16:26:41.672 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: 0 :  edir1@blr.novell.com
+2021-08-18 16:26:47.062 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (9e879e3b134d3acc7f6393c029ee550e)] -> xpath: //input[@onclick='CheckMe(this)']]
+2021-08-18 16:26:47.100 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 16:26:47.101 [main] WARN  com.retain.utility.RetainWebHelper - Email Address is available in the list: edir1@blr.novell.com
+2021-08-18 16:26:47.102 [main] DEBUG com.retain.utility.RetainWebHelper - Selected check box for Email Address: edir1@blr.novell.com
+2021-08-18 16:26:47.418 [main] DEBUG com.retain.utility.RetainWebHelper - Add Selected for the email: edir1@blr.novell.com
+2021-08-18 16:26:47.612 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-18 16:26:49.000 [main] DEBUG com.retain.utility.RetainWebHelper - Include users added successfully !!!!
+2021-08-18 17:04:02.418 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 17:04:02.422 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 17:04:02.423 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 17:04:02.423 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 17:04:02.423 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 17:04:02.423 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 17:04:02.424 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 17:04:02.501 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 17:04:02.501 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 17:04:02.502 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 17:04:05.449 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 17:04:05.450 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 17:04:11.873 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 17:04:11.924 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 17:04:12.064 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 17:04:12.110 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (20d56a141388fe8cb1f636b01eb35bab)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 17:04:12.139 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (20d56a141388fe8cb1f636b01eb35bab)] -> id: login]
+2021-08-18 17:04:12.173 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:04:12.197 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (20d56a141388fe8cb1f636b01eb35bab)] -> id: login] Found.
+2021-08-18 17:04:12.197 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 17:04:12.198 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 17:04:12.198 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 17:06:02.302 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 17:06:02.307 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 17:06:02.307 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 17:06:02.308 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 17:06:02.308 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 17:06:02.308 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 17:06:02.309 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 17:06:02.389 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 17:06:02.390 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 17:06:02.390 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 17:06:05.863 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 17:06:05.863 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 17:06:11.672 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 17:06:11.726 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 17:06:11.869 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 17:06:11.906 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (47d4a7a6e93c910ef2a8ffef548460af)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 17:06:11.935 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (47d4a7a6e93c910ef2a8ffef548460af)] -> id: login]
+2021-08-18 17:06:11.964 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:06:11.984 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (47d4a7a6e93c910ef2a8ffef548460af)] -> id: login] Found.
+2021-08-18 17:06:11.985 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 17:06:11.986 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 17:06:11.986 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 17:06:22.732 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Exchange Job under Data Collection..
+2021-08-18 17:06:32.851 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (47d4a7a6e93c910ef2a8ffef548460af)] -> xpath: //a[@href='/RetainServer/Manager/ex_jobmanagement.jsp']]
+2021-08-18 17:06:32.873 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:06:32.873 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Exchange job
+2021-08-18 17:06:36.625 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting Exchange module from the list and name is: exchangeAuto
+2021-08-18 17:06:38.508 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 17:06:42.068 [main] DEBUG com.retain.utility.RetainWebHelper - exchange job name is: exchangeJob
+2021-08-18 17:06:42.540 [main] DEBUG com.retain.utility.RetainWebHelper - Select exchange Schedule: groupwiseSchedule
+2021-08-18 17:06:42.705 [main] ERROR com.retain.utility.RetainWebHelper - Cannot locate element with text: groupwiseSchedule
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INMASAIFI01', ip: '137.65.193.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: unknown
+2021-08-18 17:10:52.336 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 17:10:52.341 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 17:10:52.342 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 17:10:52.342 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 17:10:52.342 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 17:10:52.342 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 17:10:52.343 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 17:10:52.435 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 17:10:52.436 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 17:10:52.436 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 17:10:54.987 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 17:10:54.988 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 17:11:01.053 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 17:11:01.095 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 17:11:01.244 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 17:11:01.295 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (2836eb00aeb7b6c2e651c53ecd902181)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 17:11:01.323 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (2836eb00aeb7b6c2e651c53ecd902181)] -> id: login]
+2021-08-18 17:11:01.353 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:11:01.371 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (2836eb00aeb7b6c2e651c53ecd902181)] -> id: login] Found.
+2021-08-18 17:11:01.372 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 17:11:01.372 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 17:11:01.373 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 17:11:15.722 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Exchange Job under Data Collection..
+2021-08-18 17:11:25.858 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (2836eb00aeb7b6c2e651c53ecd902181)] -> xpath: //a[@href='/RetainServer/Manager/ex_jobmanagement.jsp']]
+2021-08-18 17:11:25.876 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:11:25.877 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Exchange job
+2021-08-18 17:11:29.496 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting Exchange module from the list and name is: exchangeAuto
+2021-08-18 17:11:31.831 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 17:11:34.785 [main] DEBUG com.retain.utility.RetainWebHelper - exchange job name is: exchangeJob
+2021-08-18 17:11:35.003 [main] DEBUG com.retain.utility.RetainWebHelper - Select exchange Schedule: exchangeSchedule
+2021-08-18 17:11:35.168 [main] DEBUG com.retain.utility.RetainWebHelper - Select groupwise Profile : exchangeProfile
+2021-08-18 17:11:35.348 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 17:11:35.538 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 17:11:40.705 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mail Servers
+2021-08-18 17:11:40.889 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mailserver based retain properties file.
+2021-08-18 17:11:40.891 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: ExternalPO
+2021-08-18 17:11:46.172 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (2836eb00aeb7b6c2e651c53ecd902181)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 17:11:46.193 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:11:46.194 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : ExternalPO
+2021-08-18 17:11:46.249 [main] ERROR com.retain.utility.RetainWebHelper - Mail Servers not added and have some issue.
+2021-08-18 17:16:15.485 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 17:16:15.492 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 17:16:15.492 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 17:16:15.493 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 17:16:15.493 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 17:16:15.493 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 17:16:15.493 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 17:16:15.578 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 17:16:15.578 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 17:16:15.578 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 17:16:18.287 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 17:16:18.290 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 17:16:23.839 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 17:16:23.941 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 17:16:24.123 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 17:16:24.153 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (3097d89bd76669d8530b6286562e6551)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 17:16:24.177 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (3097d89bd76669d8530b6286562e6551)] -> id: login]
+2021-08-18 17:16:24.209 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:16:24.228 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (3097d89bd76669d8530b6286562e6551)] -> id: login] Found.
+2021-08-18 17:16:24.229 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 17:16:24.229 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 17:16:24.229 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 17:16:34.463 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Exchange Job under Data Collection..
+2021-08-18 17:16:44.605 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (3097d89bd76669d8530b6286562e6551)] -> xpath: //a[@href='/RetainServer/Manager/ex_jobmanagement.jsp']]
+2021-08-18 17:16:44.626 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:16:44.626 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Exchange job
+2021-08-18 17:16:48.194 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting Exchange module from the list and name is: exchangeAuto
+2021-08-18 17:16:50.363 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 17:16:52.940 [main] DEBUG com.retain.utility.RetainWebHelper - exchange job name is: exchangeJob
+2021-08-18 17:16:53.228 [main] DEBUG com.retain.utility.RetainWebHelper - Select exchange Schedule: exchangeSchedule
+2021-08-18 17:16:53.407 [main] DEBUG com.retain.utility.RetainWebHelper - Select Exchange Profile : exchangeProfile
+2021-08-18 17:16:53.565 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 17:16:53.733 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 17:16:58.871 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mail Servers
+2021-08-18 17:16:59.039 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mailserver based retain properties file.
+2021-08-18 17:16:59.041 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: ExternalPO
+2021-08-18 17:17:04.280 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (3097d89bd76669d8530b6286562e6551)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 17:17:04.296 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:17:04.296 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : ExternalPO
+2021-08-18 17:17:04.296 [main] ERROR com.retain.utility.RetainWebHelper - List ID is not present in the code please check the id of mail server and contact automation team
+2021-08-18 17:17:04.297 [main] ERROR com.retain.utility.RetainWebHelper - Mail Servers not added and have some issue.
+2021-08-18 17:19:00.116 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 17:19:00.122 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 17:19:00.122 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 17:19:00.122 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 17:19:00.123 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 17:19:00.123 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 17:19:00.123 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 17:19:00.211 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 17:19:00.211 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 17:19:00.211 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 17:19:02.847 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 17:19:02.848 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 17:19:08.481 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 17:19:08.545 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 17:19:08.680 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 17:19:08.713 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (7f0f8b8e3ca7f95200371411ed9ca551)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 17:19:08.736 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (7f0f8b8e3ca7f95200371411ed9ca551)] -> id: login]
+2021-08-18 17:19:08.769 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:19:08.793 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (7f0f8b8e3ca7f95200371411ed9ca551)] -> id: login] Found.
+2021-08-18 17:19:08.794 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 17:19:08.794 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 17:19:08.795 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 17:19:21.785 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Exchange Job under Data Collection..
+2021-08-18 17:19:31.925 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (7f0f8b8e3ca7f95200371411ed9ca551)] -> xpath: //a[@href='/RetainServer/Manager/ex_jobmanagement.jsp']]
+2021-08-18 17:19:31.941 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:19:31.942 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Exchange job
+2021-08-18 17:19:35.556 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting Exchange module from the list and name is: exchangeAuto
+2021-08-18 17:19:37.969 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 17:19:40.887 [main] DEBUG com.retain.utility.RetainWebHelper - exchange job name is: exchangeJob
+2021-08-18 17:19:41.055 [main] DEBUG com.retain.utility.RetainWebHelper - Select exchange Schedule: exchangeSchedule
+2021-08-18 17:19:41.201 [main] DEBUG com.retain.utility.RetainWebHelper - Select Exchange Profile : exchangeProfile
+2021-08-18 17:19:41.392 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 17:19:41.620 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 17:19:46.805 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mail Servers
+2021-08-18 17:19:47.068 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mailserver based retain properties file.
+2021-08-18 17:19:47.069 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: EXCHANGEQA2
+2021-08-18 17:19:52.453 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (7f0f8b8e3ca7f95200371411ed9ca551)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 17:19:52.496 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:19:52.497 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : EXCHANGEQA2
+2021-08-18 17:19:52.641 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: EXCHANGEQA3
+2021-08-18 17:19:57.859 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (7f0f8b8e3ca7f95200371411ed9ca551)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 17:19:57.876 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:19:57.876 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : EXCHANGEQA3
+2021-08-18 17:19:57.975 [main] DEBUG com.retain.utility.RetainWebHelper - Mail Servers added successfully !!!!
+2021-08-18 17:19:57.976 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 17:20:01.522 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Type for Filter criteria: EMail Address
+2021-08-18 17:20:01.686 [main] DEBUG com.retain.utility.RetainWebHelper - Selected Name Operator for Filter criteria: is
+2021-08-18 17:20:01.823 [main] DEBUG com.retain.utility.RetainWebHelper - Enter Name phrase for Filter criteria: 0 :  edir1@blr.novell.com
+2021-08-18 17:20:07.310 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick='CheckMe(this)']'
+2021-08-18 17:20:07.339 [main] DEBUG com.retain.utility.RetainWebHelper - No Such Element Present : Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick='CheckMe(this)']'
+2021-08-18 17:20:07.340 [main] WARN  com.retain.utility.RetainWebHelper - Email Address not available in the list: edir1@blr.novell.com
+2021-08-18 17:20:07.340 [main] ERROR com.retain.utility.RetainWebHelper - Include users not added and have some issue.
+2021-08-18 17:23:29.868 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Setup..
+2021-08-18 17:23:29.873 [main] DEBUG com.retain.utility.RetainWebHelper - Setting browsers driver location.
+2021-08-18 17:23:29.873 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up properties file
+2021-08-18 17:23:29.874 [main] DEBUG com.retain.utility.RetainWebHelper - Initializing Desired Capablities.
+2021-08-18 17:23:29.874 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Browser Name in Properties File.
+2021-08-18 17:23:29.874 [main] DEBUG com.retain.utility.RetainWebHelper - Browser: Chrome
+2021-08-18 17:23:29.874 [main] DEBUG com.retain.utility.RetainWebHelper - Setting Capabilities for Chrome.
+2021-08-18 17:23:29.955 [main] DEBUG com.retain.utility.RetainWebHelper - Setting up system properties for Chrome Driver form loacation: C:\GeckoDriver\
+2021-08-18 17:23:29.956 [main] DEBUG com.retain.utility.RetainWebHelper - Initialize Webdriver Remote Driver.
+2021-08-18 17:23:29.957 [main] DEBUG com.retain.utility.RetainWebHelper - Remote Desktop IP:164.99.110.32
+2021-08-18 17:23:33.168 [main] DEBUG com.retain.utility.RetainWebHelper - Launching Browser
+2021-08-18 17:23:33.169 [main] DEBUG com.retain.utility.RetainWebHelper - Loading URL: http://10.71.98.83/RetainServer
+2021-08-18 17:23:38.571 [main] DEBUG com.retain.utility.RetainWebHelper - Creating Page Factory object for "retainPage_object.java "class.
+2021-08-18 17:23:38.632 [main] DEBUG com.retain.utility.RetainWebHelper - Maximize Browser.
+2021-08-18 17:23:38.781 [main] DEBUG com.retain.utility.RetainWebHelper - Waiting for loginUserName element.
+2021-08-18 17:23:38.816 [main] DEBUG com.retain.utility.RetainWebHelper - Checking for Title "Micro Focus Retain" and Login: [[ChromeDriver: chrome on WINDOWS (e9aa01d98b9dbab49eb897d30eb0c2be)] -> id: login] Title is: Micro Focus Retain
+2021-08-18 17:23:38.843 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e9aa01d98b9dbab49eb897d30eb0c2be)] -> id: login]
+2021-08-18 17:23:38.875 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:23:38.897 [main] DEBUG com.retain.utility.RetainWebHelper - Title " Micro Focus Retain"  and Login: "[[ChromeDriver: chrome on WINDOWS (e9aa01d98b9dbab49eb897d30eb0c2be)] -> id: login] Found.
+2021-08-18 17:23:38.897 [main] DEBUG com.retain.utility.RetainWebHelper - Return True.
+2021-08-18 17:23:38.898 [main] DEBUG com.retain.utility.RetainWebHelper - load Retain Server URL.
+2021-08-18 17:23:38.898 [main] DEBUG com.retain.utility.RetainWebHelper - URL is load successfully
+2021-08-18 17:23:50.411 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Exchange Job under Data Collection..
+2021-08-18 17:24:00.555 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e9aa01d98b9dbab49eb897d30eb0c2be)] -> xpath: //a[@href='/RetainServer/Manager/ex_jobmanagement.jsp']]
+2021-08-18 17:24:00.577 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:24:00.577 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Exchange job
+2021-08-18 17:24:04.181 [main] DEBUG com.retain.utility.RetainWebHelper - Selecting Exchange module from the list and name is: exchangeAuto
+2021-08-18 17:24:05.934 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add job button
+2021-08-18 17:24:08.467 [main] DEBUG com.retain.utility.RetainWebHelper - exchange job name is: exchangeJob
+2021-08-18 17:24:08.822 [main] DEBUG com.retain.utility.RetainWebHelper - Select exchange Schedule: exchangeSchedule
+2021-08-18 17:24:08.968 [main] DEBUG com.retain.utility.RetainWebHelper - Select Exchange Profile : exchangeProfile
+2021-08-18 17:24:09.123 [main] DEBUG com.retain.utility.RetainWebHelper - Select Worker: exchangeWorker
+2021-08-18 17:24:09.278 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Job Mailboxes.
+2021-08-18 17:24:14.380 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mail Servers
+2021-08-18 17:24:14.678 [main] DEBUG com.retain.utility.RetainWebHelper - Adding Mailserver based retain properties file.
+2021-08-18 17:24:14.680 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: EXCHANGEQA2
+2021-08-18 17:24:20.155 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e9aa01d98b9dbab49eb897d30eb0c2be)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 17:24:20.199 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:24:20.201 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : EXCHANGEQA2
+2021-08-18 17:24:20.445 [main] DEBUG com.retain.utility.RetainWebHelper - Searching Mailserver: EXCHANGEQA3
+2021-08-18 17:24:25.796 [main] DEBUG com.retain.utility.RetainWebHelper - Find Element: [[ChromeDriver: chrome on WINDOWS (e9aa01d98b9dbab49eb897d30eb0c2be)] -> xpath: //input[@type='checkbox' and @onclick='JournalMe(this)']]
+2021-08-18 17:24:25.816 [main] DEBUG com.retain.utility.RetainWebHelper - Element Found.
+2021-08-18 17:24:25.817 [main] DEBUG com.retain.utility.RetainWebHelper - Mailserver listed and selecting check box for : EXCHANGEQA3
+2021-08-18 17:24:25.908 [main] DEBUG com.retain.utility.RetainWebHelper - Mail Servers added successfully !!!!
+2021-08-18 17:24:25.908 [main] DEBUG com.retain.utility.RetainWebHelper - Click on Add users.
+2021-08-18 17:24:29.607 [main] DEBUG com.retain.utility.RetainWebHelper - Click on All users.
+2021-08-18 17:24:39.799 [main] DEBUG com.retain.utility.RetainWebHelper - Click on OK.
+2021-08-18 17:24:45.911 [main] DEBUG com.retain.utility.RetainWebHelper - Include users added successfully !!!!

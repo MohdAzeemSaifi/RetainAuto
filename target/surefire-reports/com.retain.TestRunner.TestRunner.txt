@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.retain.TestRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 56.347 s <<< FAILURE! - in com.retain.TestRunner.TestRunner
+feature(com.retain.TestRunner.TestRunner)  Time elapsed: 0.196 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+feature(com.retain.TestRunner.TestRunner)  Time elapsed: 0.118 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+feature(com.retain.TestRunner.TestRunner)  Time elapsed: 0.796 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+feature(com.retain.TestRunner.TestRunner)  Time elapsed: 0.77 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+feature(com.retain.TestRunner.TestRunner)  Time elapsed: 0.147 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+feature(com.retain.TestRunner.TestRunner)  Time elapsed: 0.744 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+

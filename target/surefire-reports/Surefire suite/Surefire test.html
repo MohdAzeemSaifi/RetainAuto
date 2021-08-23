@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 21 20:00:30 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>55 seconds (55194 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.retain.TestRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.retain.TestRunner.TestRunner<br>Parameters: "Create Worker for the module.", "Optional[Retain Server P0 Build Validation with windows Server.]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.retain.feature.steps.CreateWorker.access_worker_page(CreateWorker.java:16)
+	at ?.Access worker page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:40)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2010426450", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2010426450'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:829)
+	at com.retain.feature.steps.CreateWorker.access_worker_page(CreateWorker.java:16)
+	at ?.Access worker page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:40)
+</pre></div></td>
+<td>0</td>
+<td>com.retain.TestRunner.TestRunner@448ff1a8</td></tr>
+<tr>
+<td title='com.retain.TestRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.retain.TestRunner.TestRunner<br>Parameters: "Create Profile for exchange module.", "Optional[Retain Server P0 Build Validation with windows Server.]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.retain.feature.steps.CreateProfile.access_exchange_profile_page(CreateProfile.java:28)
+	at ?.Access exchange profile page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:35)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace696031899", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace696031899'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:829)
+	at com.retain.feature.steps.CreateProfile.access_exchange_profile_page(CreateProfile.java:28)
+	at ?.Access exchange profile page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:35)
+</pre></div></td>
+<td>0</td>
+<td>com.retain.TestRunner.TestRunner@448ff1a8</td></tr>
+<tr>
+<td title='com.retain.TestRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.retain.TestRunner.TestRunner<br>Parameters: "Create Job for groupwise module", "Optional[Retain Server P0 Build Validation with windows Server.]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.retain.feature.steps.CreateJob.access_groupwise_job_page(CreateJob.java:16)
+	at ?.Access groupwise job page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:46)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1824418025", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1824418025'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:829)
+	at com.retain.feature.steps.CreateJob.access_groupwise_job_page(CreateJob.java:16)
+	at ?.Access groupwise job page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:46)
+</pre></div></td>
+<td>0</td>
+<td>com.retain.TestRunner.TestRunner@448ff1a8</td></tr>
+<tr>
+<td title='com.retain.TestRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.retain.TestRunner.TestRunner<br>Parameters: "Create Schedule for exchange module.", "Optional[Retain Server P0 Build Validation with windows Server.]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.retain.feature.steps.CreateSchedule.enter_base_configuration(CreateSchedule.java:17)
+	at ?.Access Schedule configuration page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:25)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace631766751", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace631766751'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:829)
+	at com.retain.feature.steps.CreateSchedule.enter_base_configuration(CreateSchedule.java:17)
+	at ?.Access Schedule configuration page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:25)
+</pre></div></td>
+<td>0</td>
+<td>com.retain.TestRunner.TestRunner@448ff1a8</td></tr>
+<tr>
+<td title='com.retain.TestRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.retain.TestRunner.TestRunner<br>Parameters: "Create Schedule for groupwise module.", "Optional[Retain Server P0 Build Validation with windows Server.]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.retain.feature.steps.CreateSchedule.enter_base_configuration(CreateSchedule.java:17)
+	at ?.Access Schedule configuration page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:20)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace244668763", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace244668763'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:829)
+	at com.retain.feature.steps.CreateSchedule.enter_base_configuration(CreateSchedule.java:17)
+	at ?.Access Schedule configuration page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:20)
+</pre></div></td>
+<td>0</td>
+<td>com.retain.TestRunner.TestRunner@448ff1a8</td></tr>
+<tr>
+<td title='com.retain.TestRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.retain.TestRunner.TestRunner<br>Parameters: "Create Profile for groupwise module.", "Optional[Retain Server P0 Build Validation with windows Server.]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.retain.feature.steps.CreateProfile.access_groupwise_profile_page(CreateProfile.java:16)
+	at ?.Access groupwise profile page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:30)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1706779253", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1706779253'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:829)
+	at com.retain.feature.steps.CreateProfile.access_groupwise_profile_page(CreateProfile.java:16)
+	at ?.Access groupwise profile page(file:///C:/Users/MASaifi/eclipse-workspace/RetainAutomation/src/test/features/RetainServerLogin.feature:30)
+</pre></div></td>
+<td>0</td>
+<td>com.retain.TestRunner.TestRunner@448ff1a8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.retain.TestRunner.TestRunner.feature()'><b>feature</b><br>Test class: com.retain.TestRunner.TestRunner<br>Parameters: "Groupwise module configuration.", "Optional[Retain Server P0 Build Validation with windows Server.]"</td>
+<td></td>
+<td>48</td>
+<td>com.retain.TestRunner.TestRunner@448ff1a8</td></tr>
+</table><p>
+</body>
+</html>
